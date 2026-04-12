@@ -68,12 +68,12 @@ export const Header = () => {
   };
 
   const serviceLinks = [
-    { href: "/services/promenade-chien", label: "Promenade", icon: Dog },
-    { href: "/services/hebergement-chien", label: "Hébergement", icon: Home },
-    { href: "/services/visite-domicile", label: "Visite à domicile", icon: Calendar },
-    { href: "/services/garde-domicile", label: "Garde à domicile", icon: Shield },
-    { href: "/services/visite-sanitaire", label: "Visite Sanitaire", icon: BookOpen },
-    { href: "/services/accompagnement-veterinaire", label: "Accomp. Vétérinaire", icon: Users },
+    { href: "/services/promenade", label: "Promenade", icon: Dog },
+    { href: "/services/garde", label: "Hébergement & Garde", icon: Home },
+    { href: "/services/visite", label: "Visite à domicile", icon: Calendar },
+    { href: "/services/dog-sitting", label: "Dog Sitting", icon: Shield },
+    { href: "/services/pet-sitting", label: "Pet Sitting", icon: BookOpen },
+    { href: "/services/marche-reguliere", label: "Marche Régulière", icon: Users },
   ];
 
   const navLinks = [
