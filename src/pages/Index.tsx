@@ -45,6 +45,7 @@ const Index = () => {
         <WhySection />
         
 
+        <DogWalkingProtect />
         <SecurityTrustSection />
         <UserTypesSection />
         

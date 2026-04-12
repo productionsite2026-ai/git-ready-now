@@ -5,7 +5,7 @@ export const SecurityTrustSection = () => {
     {
       icon: Award,
       title: "Accompagnateurs Certifiés",
-      description: "Formation, Expérience Vérifiée, Références Contrôlées et  Vierge"
+      description: "Formation, Expérience Vérifiée, Références Contrôlées et Casier Judiciaire B2 Vierge"
     },
     {
       icon: Star,

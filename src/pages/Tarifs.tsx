@@ -70,7 +70,7 @@ const Tarifs = () => {
   ];
 
   const guarantees = [
-    { icon: Shield, title: "Accompagnateurs Certifiés", description: "Identité (CNI) et  vérifiés manuellement", variant: "primary" as const },
+    { icon: Shield, title: "Accompagnateurs Certifiés", description: "Identité (CNI) et Casier Judiciaire B2 vérifiés manuellement", variant: "primary" as const },
     { icon: Lock, title: "Paiement par Séquestre", description: "Fonds bloqués et libérés uniquement par code unique", variant: "accent" as const },
     { icon: Camera, title: "Preuve Visuelle", description: "Photo/vidéo obligatoire à chaque étape de mission", variant: "success" as const },
     { icon: CreditCard, title: "Tarifs Libres", description: "Prix fixés par les Accompagnateurs (85% reversés)", variant: "warning" as const }

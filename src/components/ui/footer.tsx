@@ -33,11 +33,11 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold mb-3 text-sm uppercase tracking-wider">Nos Services</h3>
             <ul className="space-y-2 text-sm text-white/70">
-              <li><Link to="/services/promenade-chien" className="hover:text-white transition-colors">Promenade</Link></li>
-              <li><Link to="/services/hebergement-chien" className="hover:text-white transition-colors">Hébergement</Link></li>
-              <li><Link to="/services/visite-domicile" className="hover:text-white transition-colors">Visite à domicile</Link></li>
-              <li><Link to="/services/garde-domicile" className="hover:text-white transition-colors">Garde à domicile</Link></li>
-              <li><Link to="/services/visite-sanitaire" className="hover:text-white transition-colors">Visite Sanitaire</Link></li>
+              <li><Link to="/services/promenade" className="hover:text-white transition-colors">Promenade</Link></li>
+              <li><Link to="/services/garde" className="hover:text-white transition-colors">Hébergement & Garde</Link></li>
+              <li><Link to="/services/visite" className="hover:text-white transition-colors">Visite à domicile</Link></li>
+              <li><Link to="/services/dog-sitting" className="hover:text-white transition-colors">Dog Sitting</Link></li>
+              <li><Link to="/services/pet-sitting" className="hover:text-white transition-colors">Pet Sitting</Link></li>
               <li><Link to="/tarifs" className="hover:text-white transition-colors">Nos tarifs</Link></li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ export const Footer = () => {
             <h3 className="font-semibold mb-3 text-sm uppercase tracking-wider">Propriétaires</h3>
             <ul className="space-y-2 text-sm text-white/70">
               <li><Link to="/walkers" className="hover:text-white transition-colors">Trouver un Accompagnateur</Link></li>
-              <li><Link to="/villes" className="hover:text-white transition-colors">Zones d'intervention</Link></li>
+              <li><Link to="/nous-sommes-presents" className="hover:text-white transition-colors">Zones d'intervention</Link></li>
               <li><Link to="/dashboard" className="hover:text-white transition-colors">Mon espace Propriétaire</Link></li>
               <li><Link to="/dashboard?tab=parrainage" className="hover:text-white transition-colors">Parrainage</Link></li>
             </ul>

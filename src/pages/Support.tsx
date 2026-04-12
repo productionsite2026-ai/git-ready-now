@@ -33,7 +33,7 @@ const faqCategories = {
     icon: Dog,
     faqs: [
       { question: "Comment fonctionne DogWalking pour mon animal ?", answer: "Recherchez un Accompagnateur Certifié près de chez vous. Échangez via messages pré-enregistrés, puis réservez en bloquant les fonds sur la plateforme (Séquestre). Une fois les fonds sécurisés, vous accédez au chat libre pour organiser la mission. Le paiement n'est libéré qu'à la fin, lorsque vous communiquez votre code unique à l'Accompagnateur Certifié." },
-      { question: "Comment sont sélectionnés les Accompagnateurs ?", answer: "Seuls 35% des candidats sont acceptés. Nous vérifions manuellement leur pièce d'identité (CNI), leur , leurs formations et leur expérience. Chaque Accompagnateur Certifié doit signer un accord de principe aux règles strictes de DogWalking." },
+      { question: "Comment sont sélectionnés les Accompagnateurs ?", answer: "Seuls 35% des candidats sont acceptés. Nous vérifions manuellement leur pièce d'identité (CNI), leur Casier Judiciaire B2, leurs formations et leur expérience. Chaque Accompagnateur Certifié doit signer un accord de principe aux règles strictes de DogWalking." },
       { question: "Qu'est-ce que le système de Preuve Visuelle ?", answer: "Contrairement au GPS intrusif, DogWalking impose une preuve visuelle. L'Accompagnateur Certifié doit vous envoyer une photo ou vidéo dès qu'il récupère votre animal, puis une autre à la fin de la mission. C'est la garantie réelle du service effectué." },
       { question: "Puis-je annuler une réservation ?", answer: "Oui, l'annulation est possible et gratuite jusqu'à 3 heures avant le début de la prestation. Passé ce délai, des conditions spécifiques s'appliquent." },
       { question: "Comment fonctionne le paiement par code unique ?", answer: "À la fin de la mission, si vous êtes satisfait et avez reçu les preuves visuelles, vous communiquez votre code unique (reçu lors de la réservation) à l'Accompagnateur Certifié. Sa saisie sur son dashboard déclenche le versement des fonds." },
@@ -43,7 +43,7 @@ const faqCategories = {
     title: "Accompagnateurs",
     icon: Briefcase,
     faqs: [
-      { question: "Comment devenir Accompagnateur Certifié ?", answer: "Inscrivez-vous sur la plateforme, complétez votre profil professionnel et soumettez vos documents (CNI). Notre équipe analyse manuellement chaque candidature. Le taux d'acceptation est de 35%." },
+      { question: "Comment devenir Accompagnateur Certifié ?", answer: "Inscrivez-vous sur la plateforme, complétez votre profil professionnel et soumettez vos documents (CNI, Casier Judiciaire B2, assurance RC). Notre équipe analyse manuellement chaque candidature. Le taux d'acceptation est de 35%." },
       { question: "Comment suis-je payé pour mes missions ?", answer: "Le paiement est garanti car les fonds sont bloqués par le Propriétaire avant la mission. Une fois la prestation terminée, saisissez le code unique fourni par le Propriétaire sur votre outil 'GO' pour libérer vos gains (85% du montant total)." },
       { question: "Quelles sont mes obligations pendant une mission ?", answer: "Vous devez utiliser l'outil 'GO' pour envoyer une photo/vidéo de prise en charge et une preuve de fin de mission. Sans ces preuves visuelles et la saisie du code unique, le paiement ne peut être débloqué." },
       { question: "Puis-je fixer mes propres tarifs ?", answer: "Oui, les tarifs sont totalement libres. Vous fixez vos prix en fonction de votre expérience et de votre zone géographique. DogWalking affiche des mentions 'À partir de...' pour guider les utilisateurs." },
@@ -122,7 +122,7 @@ const Support = () => {
   ];
 
   const values = [
-    { icon: Shield, title: "Confiance Vérifiée", description: "Vérification manuelle de la CNI, du  et de l'expérience de chaque candidat." },
+    { icon: Shield, title: "Confiance Vérifiée", description: "Vérification manuelle de la CNI, du Casier Judiciaire B2 et de l'expérience de chaque candidat." },
     { icon: Lock, title: "Sécurité Financière", description: "Système de séquestre innovant avec code unique de déblocage détenu par le Propriétaire." },
     { icon: Camera, title: "Preuve Visuelle", description: "Photos et vidéos obligatoires à la prise en charge et à la fin de chaque mission réalisée." },
     { icon: Heart, title: "Bien-être Animal", description: "Une approche centrée sur le respect de l'animal, documentée en temps réel pour votre sérénité." },
@@ -224,7 +224,7 @@ const Support = () => {
                     <div className="order-1 md:order-2">
                       <h2 className="text-3xl font-bold mb-6">Notre Engagement : 35% de Sélection</h2>
                       <p className="text-lg text-muted-foreground mb-6">
-                        Nous ne sommes pas un annuaire ouvert à tous. Chaque Accompagnateur Certifié est validé manuellement par notre équipe après vérification de sa CNI, de son  et de ses compétences.
+                        Nous ne sommes pas un annuaire ouvert à tous. Chaque Accompagnateur Certifié est validé manuellement par notre équipe après vérification de sa CNI, de son Casier Judiciaire B2 et de ses compétences.
                       </p>
                       <ul className="space-y-4">
                         <li className="flex items-center gap-3">

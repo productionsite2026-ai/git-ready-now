@@ -38,7 +38,7 @@ const NousSommesPresents = () => {
     },
     { 
       question: "Comment sont sélectionnés les Accompagnateurs ?", 
-      answer: "Chaque Accompagnateur Certifié passe un processus de sélection rigoureux : vérification d'identité (CNI), contrôle du  et validation manuelle du profil. Seuls 35% des candidats sont retenus." 
+      answer: "Chaque Accompagnateur Certifié passe un processus de sélection rigoureux : vérification d'identité (CNI), contrôle du Casier Judiciaire B2 et validation manuelle du profil. Seuls 35% des candidats sont retenus." 
     },
     { 
       question: "Puis-je avoir un Accompagnateur Certifié dans ma ville rapidement ?", 
