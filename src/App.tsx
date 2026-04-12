@@ -74,13 +74,13 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/index" element={<Navigate to="/" replace />} />
               <Route path="/dashboard-preview" element={<DashboardPreview />} />
-              <Route path="/services/:slug" element={<ServicePage />} />
               <Route path="/services/promenade" element={<ServicePromenade />} />
               <Route path="/services/garde" element={<ServiceGarde />} />
               <Route path="/services/visite" element={<ServiceVisite />} />
               <Route path="/services/dog-sitting" element={<ServiceDogSitting />} />
               <Route path="/services/pet-sitting" element={<ServicePetSitting />} />
               <Route path="/services/marche-reguliere" element={<ServiceMarcheReguliere />} />
+              <Route path="/services/:slug" element={<ServicePage />} />
               <Route path="/auth" element={<Auth />} />
               <Route path="/auth/callback" element={<AuthCallback />} />
               {/* Owner Dashboard */}
