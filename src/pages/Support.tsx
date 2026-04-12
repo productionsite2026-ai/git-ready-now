@@ -23,6 +23,7 @@ import { toast } from "sonner";
 import teamImage from "@/assets/pages/equipe-dogwalking.jpg";
 import missionImage from "@/assets/trust/promeneur-verifie-badge.jpg";
 import { ExpertBio } from "@/components/ui/expert-bio";
+import { FloatingContact } from "@/components/ui/floating-contact";
 import { experts } from "@/data/expertsData";
 
 // ===== FAQ Data Aligned with CDC =====
