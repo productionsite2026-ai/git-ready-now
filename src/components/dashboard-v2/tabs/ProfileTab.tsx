@@ -1,5 +1,5 @@
 import { User, Mail, Phone, MapPin, Camera, LogOut, FileText, Shield, Bell, Upload, RefreshCw, Trash2, Euro, Settings, Lock, Eye, EyeOff, Smartphone, Download, ChevronRight, CreditCard, Home } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useAuth } from "@/contexts/AuthContext";
 import { useProfile, useWalkerProfile } from "@/hooks/useProfile";
 import { useState, useRef, useEffect } from "react";
@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { useQueryClient } from "@tanstack/react-query";
 import avatarWalker from "@/assets/avatar-walker.jpg";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { mockProfile } from "@/data/demoData";
 import { Switch } from "@/components/ui/switch";
 

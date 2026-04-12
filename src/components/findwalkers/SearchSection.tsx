@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import FiltersSidebar from "@/components/findwalkers/FiltersSidebar";
 import AnnoncesLibresBlock from "@/components/findwalkers/AnnoncesLibresBlock";
-import Accompagnateur CertifiésListe from "@/components/findwalkers/Accompagnateur CertifiésListe";
+import AccompagnateurCertifiesListe from "@/components/findwalkers/PromeneursListe";
 
 const SearchSection = () => {
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -47,7 +47,7 @@ const SearchSection = () => {
 
         {/* Mobile: stacked */}
         <div className="lg:hidden space-y-6">
-          <Accompagnateur CertifiésListe />
+          <AccompagnateurCertifiesListe />
           <AnnoncesLibresBlock />
         </div>
 
@@ -60,7 +60,7 @@ const SearchSection = () => {
             </div>
           </div>
           <div className="lg:col-span-9">
-            <Accompagnateur CertifiésListe />
+            <AccompagnateurCertifiesListe />
           </div>
         </div>
       </div>

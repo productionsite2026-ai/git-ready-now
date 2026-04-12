@@ -40,6 +40,10 @@ export interface ServiceData {
   image: string;
   images: { src: string; alt: string }[];
   minPrice: number;
+  priceLabel?: string;
+  galleryImages?: string[];
+  subDescription?: string;
+  benefits?: { title: string; description: string }[];
   duration: string;
   description: {
     intro: string;

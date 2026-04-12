@@ -3,9 +3,10 @@ import { Header } from "@/components/ui/header";
 import { Footer } from "@/components/ui/footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SEOHead } from "@/components/seo/SEOHead";
 import { getServiceBySlug } from "@/data/servicesData";
-import { ArrowRight, Check, Clock, MapPin, Search, Dog, Cat, Shield, Award, Heart, Users, Star, CheckCircle2, Sparkles, Eye, ThumbsUp, Zap, Phone, MessageCircle } from "lucide-react";
+import { ArrowRight, Check, Clock, MapPin, Search, Dog, Cat, Shield, Award, Heart, Users, Star, CheckCircle2, Sparkles, Eye, ThumbsUp, Zap, Phone, MessageCircle, Lock, CreditCard, Camera, HelpCircle } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { AnimatedIcon } from "@/components/ui/animated-icon";
@@ -264,7 +265,7 @@ const ServicePage = () => {
                 viewport={{ once: true }}
                 variants={staggerContainer}
               >
-                {service.galleryImages.map((img, i) => (
+                {(service.galleryImages || service.images.map(img => img.src)).map((img, i) => (
                   <motion.div 
                     key={i} 
                     className={`rounded-2xl overflow-hidden shadow-lg ${i === 0 ? 'col-span-2 h-64' : 'h-48'}`}
@@ -286,8 +287,8 @@ const ServicePage = () => {
                 <Badge className="bg-primary/10 text-primary mb-4">À propos de ce service</Badge>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">Un accompagnement sur-mesure pour votre animal</h2>
                 <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-                  <p>{service.description}</p>
-                  <p>{service.subDescription}</p>
+                  <p>{typeof service.description === 'string' ? service.description : service.description.intro}</p>
+                  <p>{service.subDescription || (typeof service.description !== 'string' ? service.description.forWhom : '')}</p>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-6 mt-10">
@@ -326,7 +327,7 @@ const ServicePage = () => {
             />
             
             <AnimatedGrid className="grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16" staggerDelay={0.1}>
-              {service.benefits.map((benefit, i) => (
+              {(service.benefits || []).map((benefit, i) => (
                 <AnimatedGridItem key={i}>
                   <Card className="h-full border-border/50 shadow-soft hover:shadow-card hover:-translate-y-1 transition-all duration-300">
                     <CardHeader className="pb-3">
