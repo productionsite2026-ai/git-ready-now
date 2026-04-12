@@ -34,7 +34,7 @@ export const TrustBadges = ({
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Promeneurs Vérifiés",
+      title: "Accompagnateurs Certifiés",
       description:
         "Chaque promeneur est rigoureusement sélectionné et vérifié par notre équipe.",
       highlight: "35% d'acceptation",

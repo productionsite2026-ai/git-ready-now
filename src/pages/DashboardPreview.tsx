@@ -118,7 +118,7 @@ const DashboardPreview = () => {
                   </li>
                   <li className="flex items-center gap-3 text-muted-foreground">
                     <Shield className="h-5 w-5 text-primary flex-shrink-0" />
-                    <span>Promeneurs vérifiés et assurés</span>
+                    <span>Accompagnateurs Certifiés et assurés</span>
                   </li>
                   <li className="flex items-center gap-3 text-muted-foreground">
                     <MessageCircle className="h-5 w-5 text-primary flex-shrink-0" />
@@ -140,7 +140,7 @@ const DashboardPreview = () => {
             </Card>
           </motion.div>
 
-          {/* Card Promeneur */}
+          {/* Card Accompagnateur Certifié */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -151,7 +151,7 @@ const DashboardPreview = () => {
                 <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
                   <Users className="h-10 w-10 text-accent" />
                 </div>
-                <CardTitle className="text-2xl text-foreground">Espace Promeneur</CardTitle>
+                <CardTitle className="text-2xl text-foreground">Espace Accompagnateur</CardTitle>
                 <CardDescription className="text-base">
                   Vous souhaitez devenir promeneur certifié et gagner de l'argent
                 </CardDescription>

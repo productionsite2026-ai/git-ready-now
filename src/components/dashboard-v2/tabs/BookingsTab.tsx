@@ -238,7 +238,7 @@ const BookingsTab = ({ role }: { role: "owner" | "walker" }) => {
 
                         {role === "owner" && b.walker_id && (
                           <div className="flex items-center gap-2 bg-primary/5 rounded-xl px-3 py-2">
-                            <span className="text-xs text-foreground font-semibold">🏃 Promeneur assigné</span>
+                            <span className="text-xs text-foreground font-semibold">🏃 Accompagnateur Certifié assigné</span>
                             <button onClick={() => navigate(`/messages?user=${b.walker_id}`)}
                               className="ml-auto text-[10px] text-primary font-bold flex items-center gap-1">
                               <MessageCircle className="w-3 h-3" /> Contacter

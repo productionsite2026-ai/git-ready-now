@@ -34,7 +34,7 @@ const parisCities: CityCard[] = [
 ];
 
 const idfCities: CityCard[] = [
-  { name: "Boulogne-Billancourt", description: "Promeneurs disponibles dans les parcs et le long de la Seine.", highlight: "Hauts-de-Seine (92)" },
+  { name: "Boulogne-Billancourt", description: "Accompagnateurs Certifiés disponibles dans les parcs et le long de la Seine.", highlight: "Hauts-de-Seine (92)" },
   { name: "Neuilly-sur-Seine", description: "Balades au Bois de Boulogne et dans les rues résidentielles.", highlight: "Hauts-de-Seine (92)" },
   { name: "Levallois-Perret", description: "Promenades dans les espaces verts du centre-ville.", highlight: "Hauts-de-Seine (92)" },
   { name: "Saint-Denis", description: "Balades autour du canal et des parcs urbains.", highlight: "Seine-St-Denis (93)" },
@@ -96,7 +96,7 @@ const ZonesCitiesSection = () => {
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold border border-primary/20 mb-4">
             <Building2 className="h-3.5 w-3.5" /> Paris — 20 Arrondissements
           </span>
-          <h2 className="text-3xl font-bold text-foreground mt-2 mb-4">Nos Promeneurs à Paris</h2>
+          <h2 className="text-3xl font-bold text-foreground mt-2 mb-4">Nos Accompagnateurs Certifiés à Paris</h2>
           <p className="text-muted-foreground">Des Accompagnateurs vérifiés dans chaque arrondissement, proches des plus beaux parcs et jardins de la capitale.</p>
         </motion.div>
 
@@ -127,7 +127,7 @@ const ZonesCitiesSection = () => {
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 text-sm font-semibold border border-emerald-500/20 mb-4">
             <MapPin className="h-3.5 w-3.5" /> Île-de-France
           </span>
-          <h2 className="text-3xl font-bold text-foreground mt-2 mb-4">Nos Promeneurs en Île-de-France</h2>
+          <h2 className="text-3xl font-bold text-foreground mt-2 mb-4">Nos Accompagnateurs Certifiés en Île-de-France</h2>
           <p className="text-muted-foreground">Un réseau de promeneurs de confiance dans les principales villes de la région parisienne.</p>
         </motion.div>
 

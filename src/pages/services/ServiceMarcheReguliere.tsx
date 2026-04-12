@@ -142,7 +142,7 @@ const ServiceMarcheReguliere = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Marche Régulière Chien | Promeneur Attitré & Routine | DogWalking"
+        title="Marche Régulière Chien | Accompagnateur Certifié Attitré & Routine | DogWalking"
         description="Marche régulière avec le même promeneur vérifié. Routine stable, bénéfices comportementaux, lien de confiance. Forfaits avantageux dès 30€/semaine."
         keywords="marche régulière chien, promenade quotidienne, promeneur attitré, routine chien, forfait promenade, dog walking régulier"
         canonicalUrl="https://dogwalking.fr/services/marche-reguliere"
@@ -207,7 +207,7 @@ const ServiceMarcheReguliere = () => {
               >
                 <img 
                   src={marcheHero} 
-                  alt="Promeneur régulier avec un chien heureux sur un chemin bordé d'arbres en automne" 
+                  alt="Accompagnateur Certifié régulier avec un chien heureux sur un chemin bordé d'arbres en automne" 
                   className="rounded-2xl shadow-2xl w-full object-cover aspect-video"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border">
@@ -248,7 +248,7 @@ const ServiceMarcheReguliere = () => {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <motion.img
                 src={marcheQuotidienne}
-                alt="Promeneur quotidien avec un chien dans une rue de quartier"
+                alt="Accompagnateur Certifié quotidien avec un chien dans une rue de quartier"
                 className="rounded-2xl shadow-lg w-full object-cover aspect-video"
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -467,7 +467,7 @@ const ServiceMarcheReguliere = () => {
                 viewport={{ once: true }}
               >
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Un Lien Unique Entre Votre Chien et Son Promeneur
+                  Un Lien Unique Entre Votre Chien et Son Accompagnateur Certifié
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
                   Avec le temps, votre chien reconnaît son promeneur, l'attend avec impatience 
@@ -525,7 +525,7 @@ const ServiceMarcheReguliere = () => {
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      Promeneur attitré
+                      Accompagnateur Certifié attitré
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -553,7 +553,7 @@ const ServiceMarcheReguliere = () => {
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      Promeneur attitré
+                      Accompagnateur Certifié attitré
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -581,7 +581,7 @@ const ServiceMarcheReguliere = () => {
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      Promeneur attitré
+                      Accompagnateur Certifié attitré
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />

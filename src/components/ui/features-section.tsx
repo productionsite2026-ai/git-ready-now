@@ -24,7 +24,7 @@ export const FeaturesSection = () => {
       icon: FileCheck,
       title: "Documents certifiés",
       description: "Attestation premiers secours, certificat de capacité. Qualité professionnelle garantie.",
-      badge: "Promeneurs pros"
+      badge: "Accompagnateur Certifiés pros"
     },
     {
       icon: Star,
@@ -35,7 +35,7 @@ export const FeaturesSection = () => {
     {
       icon: Award,
       title: "Badges de qualité",
-      description: "Super Promeneur, 50+ missions, Premiers Secours, Expert Comportement. Récompenses méritées.",
+      description: "Super Accompagnateur Certifié, 50+ missions, Premiers Secours, Expert Comportement. Récompenses méritées.",
       badge: "Excellence"
     },
     {

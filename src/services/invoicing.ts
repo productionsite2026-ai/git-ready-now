@@ -65,7 +65,7 @@ export async function generateInvoicePDF(invoice: InvoiceData): Promise<Blob> {
   // Informations du promeneur (À gauche)
   yPosition += 10;
   doc.setFontSize(11);
-  doc.text('Promeneur (Prestataire):', margin, yPosition);
+  doc.text('Accompagnateur Certifié (Prestataire):', margin, yPosition);
   yPosition += 5;
   doc.setFontSize(9);
   doc.text(invoice.walkerName, margin, yPosition);

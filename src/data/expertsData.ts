@@ -82,7 +82,7 @@ export const experts: ExpertProfile[] = [
     ],
     bio: "Thomas est notre expert en promenade canine. Avec 15 ans d'expérience en tant que promeneur professionnel, il a développé des techniques innovantes d'enrichissement comportemental. Il forme nos promeneurs aux meilleures pratiques et supervise les missions complexes.",
     certifications: [
-      "Certificat de Promeneur Professionnel",
+      "Certificat d'Accompagnateur Certifié",
       "Formation en Enrichissement Canin",
       "Spécialiste en Gestion de Groupes de Chiens",
     ],

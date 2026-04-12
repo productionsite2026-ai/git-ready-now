@@ -44,7 +44,7 @@ const FavoritesTab = () => {
         const prof = profileMap.get(p.user_id);
         return {
           id: p.user_id,
-          name: `${prof?.first_name || "Promeneur"} ${(prof?.last_name || "")[0] || ""}.`,
+          name: `${prof?.first_name || "Accompagnateur Certifié"} ${(prof?.last_name || "")[0] || ""}.`,
           rating: Number(p.rating || 0),
           reviews: p.total_reviews || 0,
           avatar: prof?.avatar_url,

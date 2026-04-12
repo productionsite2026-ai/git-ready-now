@@ -164,7 +164,7 @@ const Auth = () => {
   };
 
   const benefits = [
-    { icon: Shield, text: "Promeneurs 100% vérifiés" },
+    { icon: Shield, text: "Accompagnateur Certifiés 100% vérifiés" },
     { icon: CheckCircle, text: "Paiement sécurisé paiement sécurisé" },
     { icon: Star, text: "Preuves photo obligatoires" },
   ];
@@ -178,7 +178,7 @@ const Auth = () => {
       description: "Trouvez un promeneur de confiance pour votre compagnon",
       features: [
         { icon: Calendar, text: "Réservez des promenades" },
-        { icon: Shield, text: "Promeneurs vérifiés & assurés" },
+        { icon: Shield, text: "Accompagnateurs Certifiés & assurés" },
         { icon: MessageCircle, text: "Suivi photo en temps réel" },
         { icon: Star, text: "Avis et notes" },
       ],
@@ -191,7 +191,7 @@ const Auth = () => {
     {
       type: 'walker' as UserType,
       icon: Dog,
-      title: "Promeneur",
+      title: "Accompagnateur Certifié",
       subtitle: "Je promène des chiens",
       description: "Proposez vos services et gagnez de l'argent",
       features: [
@@ -323,7 +323,7 @@ const Auth = () => {
                       {selectedUserType === 'owner' ? <Heart className="h-4 w-4 text-heart" /> : <Dog className="h-4 w-4 text-stat-green" />}
                     </div>
                     <span className="text-sm font-semibold">
-                      Espace {selectedUserType === 'owner' ? 'Propriétaire' : 'Promeneur'}
+                      Espace {selectedUserType === 'owner' ? 'Propriétaire' : 'Accompagnateur Certifié'}
                     </span>
                     <CheckCircle className={`h-4 w-4 ${selectedUserType === 'owner' ? 'text-heart' : 'text-stat-green'}`} />
                   </div>

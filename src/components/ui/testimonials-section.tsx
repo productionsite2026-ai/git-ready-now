@@ -46,7 +46,7 @@ export const TestimonialsSection = () => {
       name: "Julie R.",
       city: "Toulouse",
       rating: 5,
-      comment: "Le badge 'Super Promeneur' m'a aidée à choisir. Sarah est incroyable avec mon anxieux de Beauceron. Merci DogWalking !",
+      comment: "Le badge 'Super Accompagnateur Certifié' m'a aidée à choisir. Sarah est incroyable avec mon anxieux de Beauceron. Merci DogWalking !",
       dog: "Oscar, Beauceron",
       verified: true,
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Julie"

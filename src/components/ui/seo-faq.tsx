@@ -153,7 +153,7 @@ export const promenadeFAQs: FAQItem[] = [
   }
 ];
 
-export const deveniPromeneurFAQs: FAQItem[] = [
+export const deveniAccompagnateur_CertifiéFAQs: FAQItem[] = [
   {
     question: "Quelles sont les conditions pour devenir promeneur DogWalking ?",
     answer: "Vous devez être majeur, résider en France, et fournir : une pièce d'identité valide, une attestation de vérification approfondie vierge (ou extrait B3), une preuve d'protection professionnelle, et une photo de profil réelle. Aucun diplôme spécifique n'est requis, mais l'expérience avec les chiens est un plus apprécié."

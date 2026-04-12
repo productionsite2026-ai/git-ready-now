@@ -41,7 +41,7 @@ const ReviewsTab = ({ role = "walker" }: { role?: "owner" | "walker" }) => {
 
         return data.map((r: any) => ({
           id: r.id, rating: r.rating, comment: r.comment || "",
-          reviewerName: profileMap.get(r.reviewed_id)?.first_name || "Promeneur",
+          reviewerName: profileMap.get(r.reviewed_id)?.first_name || "Accompagnateur Certifié",
           reviewerAvatar: profileMap.get(r.reviewed_id)?.avatar_url,
           dogName: r.booking?.dogs?.name || "",
           date: new Date(r.created_at).toLocaleDateString("fr-FR"),

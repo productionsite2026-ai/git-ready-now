@@ -75,7 +75,7 @@ const QuiSommesNous = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Qui Sommes-Nous | L'Équipe DogWalking | Promeneurs Vérifiés France"
+        title="Qui Sommes-Nous | L'Équipe DogWalking | Accompagnateurs Certifiés France"
         description="Découvrez l'équipe DogWalking, la plateforme n°1 de promenade de chiens en France. Notre mission : connecter les Propriétaires avec des Accompagnateurs passionnés et vérifiés."
         canonical="https://dogwalking.fr/qui-sommes-nous"
         image={teamImage}

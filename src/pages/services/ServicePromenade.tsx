@@ -95,7 +95,7 @@ const ServicePromenade = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Promenade de Chien | Promeneurs Professionnels Vérifiés | DogWalking"
+        title="Promenade de Chien | Accompagnateurs Certifiés Vérifiés | DogWalking"
         description="Service de promenade de chien par des professionnels vérifiés partout en France. Preuves photo obligatoires, protection incluse, paiement sécurisé. Réservez dès 8€."
         keywords="promenade chien, dog walking, promeneur canin, balade chien, sortie chien, promeneur professionnel, dog walker france"
         canonicalUrl="https://dogwalking.fr/services/promenade"
@@ -149,7 +149,7 @@ const ServicePromenade = () => {
               <div className="relative">
                 <img 
                   src={servicePromenadeImg} 
-                  alt="Promeneur professionnel avec un chien heureux dans un parc en automne" 
+                  alt="Accompagnateur Certifié professionnel avec un chien heureux dans un parc en automne" 
                   className="rounded-2xl shadow-2xl w-full object-cover aspect-square"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-lg border">
@@ -279,7 +279,7 @@ const ServicePromenade = () => {
                 <div className="w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                   1
                 </div>
-                <h3 className="text-xl font-bold mb-2">Trouvez Votre Promeneur</h3>
+                <h3 className="text-xl font-bold mb-2">Trouvez Votre Accompagnateur Certifié</h3>
                 <p className="text-muted-foreground">
                   Recherchez parmi nos Accompagnateurs vérifiés près de chez vous. Consultez les avis, tarifs et disponibilités 
                   de chaque professionnel avant de faire votre choix.

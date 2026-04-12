@@ -13,7 +13,7 @@ interface Zone {
 }
 
 const activeZones: Zone[] = [
-  { name: "Paris", description: "Tous les arrondissements couverts. Promeneurs disponibles 7j/7 pour vos compagnons.", depts: "20 arrondissements", color: "bg-primary/5 border-primary/20", icon: Dog, active: true },
+  { name: "Paris", description: "Tous les arrondissements couverts. Accompagnateurs Certifiés disponibles 7j/7 pour vos compagnons.", depts: "20 arrondissements", color: "bg-primary/5 border-primary/20", icon: Dog, active: true },
   { name: "Île-de-France", description: "Réseau dense de promeneurs vérifiés dans toute la région parisienne.", depts: "77, 78, 91, 92, 93, 94, 95", color: "bg-emerald-500/5 border-emerald-500/20", icon: PawPrint, active: true },
   { name: "Petite Couronne", description: "Hauts-de-Seine, Seine-Saint-Denis, Val-de-Marne : couverture rapide.", depts: "92, 93, 94", color: "bg-orange-500/5 border-orange-500/20", icon: Home, active: true },
   { name: "Grande Couronne", description: "Yvelines, Essonne, Val-d'Oise, Seine-et-Marne : service en expansion.", depts: "77, 78, 91, 95", color: "bg-violet-500/5 border-violet-500/20", icon: Eye, active: true },
@@ -50,7 +50,7 @@ const ZoneCard = ({ zone, index }: { zone: Zone; index: number }) => (
       {zone.active && (
         <div className="mt-3 flex items-center gap-2 text-xs font-semibold text-primary">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          Actif — Promeneurs disponibles
+          Actif — Accompagnateurs Certifiés disponibles
         </div>
       )}
       {!zone.active && (

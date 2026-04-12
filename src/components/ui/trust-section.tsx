@@ -6,7 +6,7 @@ import couvertureFrance from '@/assets/trust/couverture-france.jpg';
 export const TrustSection = () => {
   const stats = [
     { icon: Users, value: "10,000+", label: "Propriétaires satisfaits", color: "text-primary" },
-    { icon: Heart, value: "5,000+", label: "Promeneurs vérifiés", color: "text-heart" },
+    { icon: Heart, value: "5,000+", label: "Accompagnateurs Certifiés", color: "text-heart" },
     { icon: Star, value: "4.9/5", label: "Note moyenne", color: "text-primary" },
     { icon: MapPin, value: "50+", label: "Villes en France", color: "text-accent" },
     { icon: Shield, value: "100%", label: "Missions protégées", color: "text-primary" },
@@ -14,7 +14,7 @@ export const TrustSection = () => {
   ];
 
   const guarantees = [
-    "Promeneurs rigoureusement vérifiés",
+    "Accompagnateur Certifiés rigoureusement vérifiés",
     "Sécurité & Transparence incluse",
     "Preuves photo obligatoires",
     "Paiement Sécurisé",
