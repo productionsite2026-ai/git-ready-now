@@ -139,7 +139,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">Article 3 - Inscription et Certification</h2>
                 <p className="text-muted-foreground">
                   L'inscription est ouverte à toute personne majeure. Les Accompagnateurs Certifiés doivent 
-                  fournir des documents justificatifs (identité, ) vérifiés manuellement 
+                  fournir des documents justificatifs (identité, Casier Judiciaire B2, assurance RC) vérifiés manuellement 
                   par nos équipes (taux de sélection de 35%).
                 </p>
               </section>
@@ -204,7 +204,7 @@ const RessourcesLegales = () => {
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li>Identification (nom, email, tel)</li>
                   <li>Animaux (nom, race, santé, comportement)</li>
-                  <li>Accompagnateurs Certifiés (identité, , preuves visuelles)</li>
+                  <li>Accompagnateurs Certifiés (identité, Casier Judiciaire B2, assurance RC, preuves visuelles)</li>
                   <li>Transactions (Stripe, séquestre)</li>
                 </ul>
               </section>
