@@ -29,7 +29,7 @@ const CardSkeleton = () => (
   </div>
 );
 
-const Accompagnateur CertifiésListe = () => {
+const AccompagnateurCertifiesListe = () => {
   const navigate = useNavigate();
   const [filter, setFilter] = useState("tous");
   const [sort, setSort] = useState("Pertinence");
@@ -205,4 +205,4 @@ const Accompagnateur CertifiésListe = () => {
   );
 };
 
-export default Accompagnateur CertifiésListe;
+export default AccompagnateurCertifiesListe;
