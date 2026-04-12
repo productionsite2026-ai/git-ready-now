@@ -96,7 +96,6 @@ const App = () => (
               <Route path="/dashboard-promeneur" element={<ProtectedRoute requiredRole="walker"><WalkerDashboardPage /></ProtectedRoute>} />
               <Route path="/espace-promeneur" element={<ProtectedRoute requiredRole="walker"><WalkerDashboardPage /></ProtectedRoute>} />
               <Route path="/walker/earnings" element={<Navigate to="/walker/dashboard?tab=gains" replace />} />
-              <Route path="/walker/earnings" element={<Navigate to="/walker/dashboard?tab=gains" replace />} />
               {/* Standalone pages */}
               <Route path="/walkers" element={<FindWalkers />} />
               <Route path="/find-walkers" element={<FindWalkers />} />
