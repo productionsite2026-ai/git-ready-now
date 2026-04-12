@@ -18,7 +18,7 @@ export const ServicesSection = () => {
   const services = [
     {
       id: "promenade",
-      slug: "promenade-chien",
+      slug: "promenade",
       title: "Promenade",
       description: "Promenade en extérieur adaptée aux besoins de votre animal. Exercice physique et stimulation mentale garantis.",
       minPrice: 8,
@@ -30,7 +30,7 @@ export const ServicesSection = () => {
     },
     {
       id: "visite_domicile",
-      slug: "visite-domicile",
+      slug: "visite",
       title: "Visite à domicile",
       description: "Nourriture, eau fraîche et câlins pour vos animaux dans le confort de leur maison.",
       minPrice: 8,
@@ -42,7 +42,7 @@ export const ServicesSection = () => {
     },
     {
       id: "hebergement_nuit",
-      slug: "hebergement-chien",
+      slug: "garde",
       title: "Hébergement nuit",
       description: "Votre animal séjourne chez l'Accompagnateur Certifié dans un environnement sécurisé et familial.",
       minPrice: 10,
@@ -55,7 +55,7 @@ export const ServicesSection = () => {
     },
     {
       id: "garderie",
-      slug: "garderie-chien",
+      slug: "dog-sitting",
       title: "Garderie de jour",
       description: "Garderie de jour chez l'Accompagnateur Certifié, idéal pour la socialisation et l'exercice en journée.",
       minPrice: 10,
@@ -67,7 +67,7 @@ export const ServicesSection = () => {
     },
     {
       id: "garde_domicile",
-      slug: "garde-domicile",
+      slug: "pet-sitting",
       title: "Garde à domicile",
       description: "L'Accompagnateur Certifié reste chez vous pour garder vos animaux dans leur environnement.",
       minPrice: 12,
@@ -79,7 +79,7 @@ export const ServicesSection = () => {
     },
     {
       id: "visite_sanitaire",
-      slug: "visite-sanitaire",
+      slug: "marche-reguliere",
       title: "Visite Sanitaire",
       description: "Entretien et soins assurés à l’aide des produits fournis par le Propriétaire (brossage, hygiène, soins).",
       minPrice: 16,
@@ -91,7 +91,7 @@ export const ServicesSection = () => {
     },
     {
       id: "accompagnement_veterinaire",
-      slug: "accompagnement-veterinaire",
+      slug: "visite",
       title: "Accomp. Vétérinaire",
       description: "Transport et accompagnement de votre animal chez le vétérinaire pour ses rendez-vous santé.",
       minPrice: 13,
