@@ -224,7 +224,7 @@ const Support = () => {
                     <div className="order-1 md:order-2">
                       <h2 className="text-3xl font-bold mb-6">Notre Engagement : 35% de Sélection</h2>
                       <p className="text-lg text-muted-foreground mb-6">
-                        Nous ne sommes pas un annuaire ouvert à tous. Chaque Accompagnateur Certifié est validé manuellement par notre équipe après vérification de sa CNI, de son  et de ses compétences.
+                        Nous ne sommes pas un annuaire ouvert à tous. Chaque Accompagnateur Certifié est validé manuellement par notre équipe après vérification de sa CNI, de son Casier Judiciaire B2 et de ses compétences.
                       </p>
                       <ul className="space-y-4">
                         <li className="flex items-center gap-3">
