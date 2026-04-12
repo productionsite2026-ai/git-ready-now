@@ -154,8 +154,8 @@ const WalkerRegister = () => {
                         <CheckCircle className="h-4 w-4 text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium">Casier Judiciaire</p>
-                        <p className="text-sm text-muted-foreground">CNI obligatoire</p>
+                        <p className="font-medium">Casier Judiciaire B2</p>
+                        <p className="text-sm text-muted-foreground">Casier judiciaire B2 vierge obligatoire</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
