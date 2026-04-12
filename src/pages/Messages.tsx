@@ -306,7 +306,8 @@ const Messages = () => {
                       {messages.map((msg, index) => (
                         <MessageBubble 
                           key={msg.id || index}
-                          message={msg}
+                          content={msg.content}
+                          timestamp={msg.created_at}
                           isOwn={msg.sender_id === currentUserId}
                         />
                       ))}
