@@ -130,6 +130,11 @@ const Support = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Centre d'Aide & FAQ | Support DogWalking"
+        description="Trouvez des réponses à toutes vos questions sur DogWalking : fonctionnement, sécurité, paiement par séquestre, inscription Accompagnateur. Contactez notre équipe."
+        canonical="https://dogwalking.fr/support"
+      />
       <Header />
       <main>
         {/* ... (Hero section omitted for brevity but maintained in original) ... */}

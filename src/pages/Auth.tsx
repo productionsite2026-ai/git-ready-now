@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SEOHead } from "@/components/seo/SEOHead";
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -210,6 +211,12 @@ const Auth = () => {
 
   return (
     <>
+      <SEOHead
+        title="Connexion & Inscription | DogWalking"
+        description="Connectez-vous ou créez votre compte DogWalking. Propriétaire ou Accompagnateur Certifié, rejoignez la plateforme n°1 de promenade et garde d'animaux en France."
+        canonical="https://dogwalking.fr/auth"
+        noindex={true}
+      />
       <RoleChoiceDialog open={showRoleChoice} onChoice={handleRoleChoice} />
       <div className="min-h-screen flex">
         {/* Left side - Image & Benefits (desktop) */}

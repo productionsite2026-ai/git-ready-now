@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Header } from "@/components/ui/header";
+import { SEOHead } from "@/components/seo/SEOHead";
 import { Footer } from "@/components/ui/footer";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -176,6 +177,7 @@ const AdminDashboard = () => {
 
   return (
     <div className="min-h-screen bg-muted/30">
+      <SEOHead title="Administration | DogWalking" description="Tableau de bord administrateur DogWalking." canonical="https://dogwalking.fr/admin" noindex={true} />
       <Header />
       <main className="container mx-auto px-4 py-24">
         {/* Header Section */}
