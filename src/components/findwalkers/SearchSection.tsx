@@ -47,7 +47,7 @@ const SearchSection = () => {
 
         {/* Mobile: stacked */}
         <div className="lg:hidden space-y-6">
-          <Accompagnateur CertifiésListe />
+          <AccompagnateurCertifiesListe />
           <AnnoncesLibresBlock />
         </div>
 
@@ -60,7 +60,7 @@ const SearchSection = () => {
             </div>
           </div>
           <div className="lg:col-span-9">
-            <Accompagnateur CertifiésListe />
+            <AccompagnateurCertifiesListe />
           </div>
         </div>
       </div>
