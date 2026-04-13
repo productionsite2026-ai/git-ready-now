@@ -1,3 +1,4 @@
+import { SEOHead } from "@/components/seo/SEOHead";
 import walkerHero from "@/assets/walker-hero.jpg";
 import avatarWalker from "@/assets/avatar-walker.jpg";
 import StarRating from "@/components/dashboard-v2/StarRating";
