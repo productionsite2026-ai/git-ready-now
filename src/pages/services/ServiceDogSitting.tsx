@@ -122,7 +122,7 @@ const ServiceDogSitting = () => {
         title="Garde à Votre Domicile | Présence Humaine & Attention Personnalisée | DogWalking"
         description="Garde à votre domicile par des professionnels vérifiés partout en France. Présence continue, jeux, câlins et promenades pour votre chien. Preuves photo, protection incluse."
         keywords="garde domicile chien, présence chien, garde personnalisée chien, Accompagnateur france, compagnie chien"
-        canonicalUrl="https://dogwalking.fr/services/dog-sitting"
+        canonicalUrl="https://dogwalking.fr/services/garde-domicile"
         structuredData={serviceJsonLd}
         ogImage={dogSittingHero}
       />

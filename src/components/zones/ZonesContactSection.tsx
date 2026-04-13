@@ -10,7 +10,7 @@ const services = [
   { id: "promenade", icon: Dog, label: "Promenade de chien", color: "bg-primary/10 border-primary/30" },
   { id: "garde", icon: Home, label: "Garde à domicile", color: "bg-emerald-500/10 border-emerald-500/30" },
   { id: "visite", icon: Eye, label: "Visite à domicile", color: "bg-violet-500/10 border-violet-500/30" },
-  { id: "dog-sitting", icon: PawPrint, label: "Dog sitting", color: "bg-orange-500/10 border-orange-500/30" },
+  { id: "garde-domicile", icon: PawPrint, label: "Garde à votre domicile", color: "bg-orange-500/10 border-orange-500/30" },
   { id: "reguliere", icon: Calendar, label: "Marche régulière", color: "bg-cyan-500/10 border-cyan-500/30" },
   { id: "autre", icon: HelpCircle, label: "Autre besoin", color: "bg-muted border-muted-foreground/20" },
 ];
