@@ -1,3 +1,4 @@
+import { SEOHead } from "@/components/seo/SEOHead";
 import walkerHeroImg from "@/assets/walker-hero.jpg";
 import avatarWalker from "@/assets/avatar-walker.jpg";
 import dogGolden from "@/assets/dog-golden.jpg";
@@ -94,6 +95,7 @@ const OwnerDashboard = () => {
 
   return (
     <div className="min-h-screen bg-background pb-24 max-w-lg mx-auto">
+      <SEOHead title="Mon Espace Propriétaire | DogWalking" description="Gérez vos réservations, vos animaux et vos Accompagnateurs Certifiés depuis votre tableau de bord DogWalking." canonical="https://dogwalking.fr/dashboard" noindex={true} />
       {isDemo && (
         <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-2 text-center">
           <span className="text-xs font-bold text-amber-600">🎭 Mode Démo — Connectez-vous pour vos vraies données</span>
