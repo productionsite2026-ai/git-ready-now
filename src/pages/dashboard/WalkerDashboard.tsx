@@ -81,6 +81,7 @@ const WalkerDashboard = () => {
 
   return (
     <div className="min-h-screen bg-background pb-24 max-w-lg mx-auto">
+      <SEOHead title="Mon Espace Accompagnateur | DogWalking" description="Gérez vos missions, vos gains et vos disponibilités depuis votre tableau de bord Accompagnateur Certifié DogWalking." canonical="https://dogwalking.fr/walker/dashboard" noindex={true} />
       {isDemo && (
         <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-2 text-center">
           <span className="text-xs font-bold text-amber-600">🎭 Mode Démo — Connectez-vous pour vos vraies données</span>
