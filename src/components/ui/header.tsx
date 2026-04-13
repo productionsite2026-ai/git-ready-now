@@ -71,8 +71,8 @@ export const Header = () => {
     { href: "/services/promenade", label: "Promenade", icon: Dog },
     { href: "/services/garde", label: "Hébergement & Garde", icon: Home },
     { href: "/services/visite", label: "Visite à domicile", icon: Calendar },
-    { href: "/services/dog-sitting", label: "Dog Sitting", icon: Shield },
-    { href: "/services/pet-sitting", label: "Pet Sitting", icon: BookOpen },
+    { href: "/services/garde-domicile", label: "Garde à Domicile", icon: Shield },
+    { href: "/services/garde-multi-animaux", label: "Garde Multi-Animaux", icon: BookOpen },
     { href: "/services/marche-reguliere", label: "Marche Régulière", icon: Users },
   ];
 

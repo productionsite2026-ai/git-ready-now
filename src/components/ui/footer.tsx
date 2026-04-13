@@ -36,8 +36,8 @@ export const Footer = () => {
               <li><Link to="/services/promenade" className="hover:text-white transition-colors">Promenade</Link></li>
               <li><Link to="/services/garde" className="hover:text-white transition-colors">Hébergement & Garde</Link></li>
               <li><Link to="/services/visite" className="hover:text-white transition-colors">Visite à domicile</Link></li>
-              <li><Link to="/services/dog-sitting" className="hover:text-white transition-colors">Dog Sitting</Link></li>
-              <li><Link to="/services/pet-sitting" className="hover:text-white transition-colors">Pet Sitting</Link></li>
+              <li><Link to="/services/garde-domicile" className="hover:text-white transition-colors">Garde à Domicile</Link></li>
+              <li><Link to="/services/garde-multi-animaux" className="hover:text-white transition-colors">Garde Multi-Animaux</Link></li>
               <li><Link to="/tarifs" className="hover:text-white transition-colors">Nos tarifs</Link></li>
             </ul>
           </div>

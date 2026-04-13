@@ -55,7 +55,7 @@ export const ServicesSection = () => {
     },
     {
       id: "garderie",
-      slug: "dog-sitting",
+      slug: "garde-domicile",
       title: "Garderie de jour",
       description: "Garderie de jour chez l'Accompagnateur Certifié, idéal pour la socialisation et l'exercice en journée.",
       minPrice: 10,
@@ -67,7 +67,7 @@ export const ServicesSection = () => {
     },
     {
       id: "garde_domicile",
-      slug: "pet-sitting",
+      slug: "garde-multi-animaux",
       title: "Garde à domicile",
       description: "L'Accompagnateur Certifié reste chez vous pour garder vos animaux dans leur environnement.",
       minPrice: 12,

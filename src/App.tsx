@@ -77,9 +77,12 @@ const App = () => (
               <Route path="/services/promenade" element={<ServicePromenade />} />
               <Route path="/services/garde" element={<ServiceGarde />} />
               <Route path="/services/visite" element={<ServiceVisite />} />
-              <Route path="/services/dog-sitting" element={<ServiceDogSitting />} />
-              <Route path="/services/pet-sitting" element={<ServicePetSitting />} />
+              <Route path="/services/garde-domicile" element={<ServiceDogSitting />} />
+              <Route path="/services/garde-multi-animaux" element={<ServicePetSitting />} />
               <Route path="/services/marche-reguliere" element={<ServiceMarcheReguliere />} />
+              {/* Redirections anciennes URLs anglaises */}
+              <Route path="/services/dog-sitting" element={<Navigate to="/services/garde-domicile" replace />} />
+              <Route path="/services/pet-sitting" element={<Navigate to="/services/garde-multi-animaux" replace />} />
               <Route path="/services/:slug" element={<ServicePage />} />
               <Route path="/auth" element={<Auth />} />
               <Route path="/auth/callback" element={<AuthCallback />} />
