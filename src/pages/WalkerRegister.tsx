@@ -51,7 +51,7 @@ const WalkerRegister = () => {
     },
     {
       icon: Shield,
-      title: "Paiement par Séquestre",
+      title: "Paiement Sécurisé",
       description: "Vos gains sont garantis et libérés dès que le Propriétaire communique son code unique de fin de mission."
     },
     {

@@ -21,7 +21,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Accompagnement Animal Partout en France | Accompagnateurs Certifiés | DogWalking"
-        description="Trouvez un Accompagnateur Certifié près de chez vous. Paiement par séquestre, code unique et preuves visuelles obligatoires. Service de promenade et garde dans toute la France."
+        description="Trouvez un Accompagnateur Certifié près de chez vous. Paiement sécurisé, code unique et preuves visuelles obligatoires. Service de promenade et garde dans toute la France."
         canonical="https://dogwalking.fr"
       />
       <Header />

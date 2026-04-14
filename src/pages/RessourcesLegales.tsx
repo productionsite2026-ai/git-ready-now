@@ -131,7 +131,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">Article 2 - Objet de la Plateforme</h2>
                 <p className="text-muted-foreground">
                   DogWalking est une plateforme de mise en relation permettant la recherche d'Accompagnateurs Certifiés, 
-                  la réservation et le paiement de prestations via séquestre, avec preuves visuelles obligatoires.
+                  la réservation et le paiement de prestations via paiement en attente, avec preuves visuelles obligatoires.
                 </p>
               </section>
 
@@ -147,7 +147,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 4 - Tarifs et Paiement</h2>
                 <p className="text-muted-foreground mb-4">
-                  Les tarifs sont librement fixés par les Accompagnateurs Certifiés ("À partir de..."). Le paiement est sécurisé par séquestre et libéré uniquement après saisie du code unique par le Propriétaire.
+                  Les tarifs sont librement fixés par les Accompagnateurs Certifiés ("À partir de..."). Le paiement est sécurisé sécurisé et libéré uniquement après saisie du code unique par le Propriétaire.
                 </p>
                 <h3 className="text-xl font-medium mb-2">Annulation</h3>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -183,7 +183,7 @@ const RessourcesLegales = () => {
                 <h2 className="text-2xl font-semibold mb-4">Article 6 - Protection & Sécurité</h2>
                 <p className="text-muted-foreground">
                   DogWalking met en place un système de médiation et de protection pour les Prestations réalisées 
-                  via la Plateforme, incluant la gestion des fonds sous séquestre.
+                  via la Plateforme, incluant la gestion des fonds sous paiement en attente.
                 </p>
               </section>
 
@@ -205,7 +205,7 @@ const RessourcesLegales = () => {
                   <li>Identification (nom, email, tel)</li>
                   <li>Animaux (nom, race, santé, comportement)</li>
                   <li>Accompagnateurs Certifiés (identité CNI, assurance RC, preuves visuelles)</li>
-                  <li>Transactions (Stripe, séquestre)</li>
+                  <li>Transactions (Stripe, paiement en attente)</li>
                 </ul>
               </section>
 

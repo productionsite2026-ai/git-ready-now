@@ -114,7 +114,7 @@ const Confidentialite = () => {
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
               <li><strong>Gestion de votre compte</strong> : création, authentification, modification</li>
               <li><strong>Mise en relation</strong> : entre Propriétaires et Accompagnateurs Certifiés</li>
-              <li><strong>Réservation et paiement</strong> : traitement des transactions via séquestre</li>
+              <li><strong>Réservation et paiement</strong> : traitement des transactions via paiement en attente</li>
               <li><strong>Communication</strong> : notifications, messages, assistance</li>
               <li><strong>Sécurité</strong> : vérification manuelle des profils (35% d'acceptation)</li>
               <li><strong>Preuves de mission</strong> : stockage des preuves visuelles obligatoires</li>
@@ -143,7 +143,7 @@ const Confidentialite = () => {
                     <td className="p-3">Intérêt légitime (sécurité)</td>
                   </tr>
                   <tr className="border-b">
-                    <td className="p-3">Paiements (Séquestre)</td>
+                    <td className="p-3">Paiements (Paiement en Attente)</td>
                     <td className="p-3">Exécution du contrat</td>
                   </tr>
                   <tr className="border-b">

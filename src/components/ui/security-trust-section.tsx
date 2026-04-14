@@ -14,7 +14,7 @@ export const SecurityTrustSection = () => {
     },
     {
       icon: Lock,
-      title: "Paiement par Séquestre",
+      title: "Paiement Sécurisé",
       description: "Votre paiement est sécurisé et libéré uniquement via votre code unique"
     }
   ];

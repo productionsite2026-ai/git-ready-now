@@ -11,7 +11,7 @@ interface SEOHeadProps {
 
 export const SEOHead = ({
   title = "DogWalking | Service de promenade et garde de chien en France",
-  description = "Trouvez un Accompagnateur Certifié de confiance près de chez vous. Profils vérifiés, paiement sécurisé par séquestre, preuves visuelles obligatoires. Réservez en quelques clics.",
+  description = "Trouvez un Accompagnateur Certifié de confiance près de chez vous. Profils vérifiés, paiement sécurisé en attente, preuves visuelles obligatoires. Réservez en quelques clics.",
   canonical = "https://dogwalking.fr",
   image = "https://dogwalking.fr/og-image.jpg",
   type = "website",
@@ -24,7 +24,7 @@ export const SEOHead = ({
     "name": "DogWalking",
     "url": "https://dogwalking.fr",
     "logo": "https://dogwalking.fr/logo.png",
-    "description": "Plateforme n°1 de mise en relation entre Propriétaires et Accompagnateurs Certifiés en France. Profils 100% vérifiés, paiement sécurisé par séquestre, preuves visuelles obligatoires.",
+    "description": "Plateforme n°1 de mise en relation entre Propriétaires et Accompagnateurs Certifiés en France. Profils 100% vérifiés, paiement sécurisé en attente, preuves visuelles obligatoires.",
     "foundingDate": "2023",
     "areaServed": {
       "@type": "Country",

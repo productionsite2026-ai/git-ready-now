@@ -79,7 +79,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "promenade-chien",
     title: "Promenade de chien",
     metaTitle: "Promenade de chien | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Trouvez un Accompagnateur Certifié DogWalking pour la promenade de votre chien. Preuves visuelles obligatoires, paiement par séquestre sécurisé et code unique.",
+    metaDescription: "Trouvez un Accompagnateur Certifié DogWalking pour la promenade de votre chien. Preuves visuelles obligatoires, paiement sécurisé sécurisé et code unique.",
     h1: "Promenade de chien – Accompagnateurs Certifiés DogWalking",
     heroDescription: "Offrez à votre chien l'exercice et la stimulation dont il a besoin avec nos Accompagnateurs Certifiés, sélectionnés rigoureusement pour leur expertise.",
     localZoneMention: "Service disponible partout en France",
@@ -97,19 +97,19 @@ export const servicesData: Record<string, ServiceData> = {
       intro: "La promenade régulière est essentielle pour l'équilibre physique et mental de votre chien. Chez DogWalking, nos Accompagnateurs Certifiés ne se contentent pas de sortir votre animal : ils veillent à sa stimulation et à son bien-être tout au long de la mission. Chaque sortie est personnalisée selon les besoins de votre compagnon, qu'il s'agisse d'une dépense d'énergie intense ou d'une marche tranquille pour les seniors. Notre approche repose sur une confiance vérifiée et une transparence totale, garantissant une expérience sereine pour le Propriétaire et joyeuse pour le chien.",
       forWhom: "Ce service s'adresse aux Propriétaires qui souhaitent offrir le meilleur à leur animal malgré un emploi du temps chargé, une mobilité réduite ou un besoin spécifique de socialisation. Que vous ayez un chiot en plein apprentissage ou un chien de travail nécessitant une activité soutenue, nos Accompagnateurs Certifiés s'adaptent à chaque profil. C'est la solution idéale pour éviter l'isolement prolongé de votre compagnon et lui garantir une coupure bénéfique dans sa journée.",
       problemsSolved: "DogWalking apporte une réponse concrète aux troubles liés au manque d'activité : destructions, aboiements intempestifs ou anxiété de séparation. En confiant votre chien à un Accompagnateur Certifié, vous éliminez le stress de la solitude. Notre système de Preuve Visuelle Obligatoire lève toute incertitude : vous recevez une photo ou vidéo dès la prise en charge de l'animal, vous assurant que la mission est réalisée avec professionnalisme.",
-      benefits: "Les bénéfices sont immédiats : un chien plus calme, mieux socialisé et en meilleure santé. L'exercice régulier prévient le surpoids et renforce le système cardiovasculaire. Mentalement, la découverte de nouvelles odeurs et de nouveaux environnements apaise l'animal. Grâce au système de paiement par séquestre, vous avez la protection d'un service de qualité : les fonds ne sont libérés que lorsque vous communiquez votre code unique à l'Accompagnateur en fin de mission."
+      benefits: "Les bénéfices sont immédiats : un chien plus calme, mieux socialisé et en meilleure santé. L'exercice régulier prévient le surpoids et renforce le système cardiovasculaire. Mentalement, la découverte de nouvelles odeurs et de nouveaux environnements apaise l'animal. Grâce au système de paiement sécurisé, vous avez la protection d'un service de qualité : les fonds ne sont libérés que lorsque vous communiquez votre code unique à l'Accompagnateur en fin de mission."
     },
     howItWorks: {
       title: "Comment fonctionne DogWalking",
       intro: "Un processus structuré pour garantir que chaque prestation payée est une prestation réalisée, en toute sécurité.",
       steps: [
         { title: "Recherche & Contact", description: "Trouvez un Accompagnateur Certifié près de chez vous. Échangez via nos messages pré-enregistrés pour définir vos besoins initiaux en toute sécurité." },
-        { title: "Réservation & Séquestre", description: "Validez la demande et bloquez les fonds sur la plateforme. Votre paiement est sécurisé et vous recevez un code unique de confirmation." },
+        { title: "Réservation & Paiement en Attente", description: "Validez la demande et bloquez les fonds sur la plateforme. Votre paiement est sécurisé et vous recevez un code unique de confirmation." },
         { title: "Organisation Logistique", description: "Une fois les fonds sécurisés, la messagerie instantanée complète est débloquée pour organiser les détails de la rencontre et de la promenade." },
         { title: "Preuves Visuelles", description: "L'Accompagnateur envoie obligatoirement une photo ou vidéo dès la prise en charge de votre chien, puis une autre à la fin de la mission." },
         { title: "Déblocage du Paiement", description: "En fin de mission, communiquez votre code unique à l'Accompagnateur. Sa saisie sur son dashboard libère les fonds et valide la prestation." }
       ],
-      safety: "La sécurité repose sur notre système de séquestre : aucun paiement n'est versé sans votre code unique. De plus, chaque Accompagnateur est rigoureusement sélectionné (CNI).",
+      safety: "La sécurité repose sur notre système de paiement sécurisé : aucun paiement n'est versé sans votre code unique. De plus, chaque Accompagnateur est rigoureusement sélectionné (CNI).",
       dogWelfare: "Le bien-être est assuré par l'envoi systématique de preuves visuelles. Pas de GPS intrusif, mais un contact humain et des images concrètes de votre chien heureux et en sécurité."
     },
     expertiseAdvantages: {
@@ -120,7 +120,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
     advantages: [
       "Accompagnateurs Certifiés rigoureusement sélectionnés (taux d'acceptation de 35%)",
-      "Système de paiement par séquestre : zéro risque pour le Propriétaire",
+      "Système de paiement sécurisé : zéro risque pour le Propriétaire",
       "Déblocage des fonds par code unique détenu par le Propriétaire",
       "Preuves visuelles (photos/vidéos) obligatoires à chaque étape de la mission",
       "Communication sécurisée avec messagerie débloquée après réservation",
@@ -146,7 +146,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "visite-domicile",
     title: "Visite à domicile",
     metaTitle: "Visite à domicile pour animaux | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Réservez une visite à domicile (30 min) pour votre chien. Nourriture, eau, câlins et soins. Preuves visuelles obligatoires et paiement sécurisé par séquestre.",
+    metaDescription: "Réservez une visite à domicile (30 min) pour votre chien. Nourriture, eau, câlins et soins. Preuves visuelles obligatoires et paiement sécurisé en attente.",
     h1: "Visite à domicile – Votre animal choyé dans son environnement",
     heroDescription: "Pendant votre absence, nos Accompagnateurs Certifiés se déplacent chez vous pour prendre soin de votre compagnon dans son environnement habituel.",
     localZoneMention: "Service disponible partout en France",
@@ -164,13 +164,13 @@ export const servicesData: Record<string, ServiceData> = {
       intro: "La visite à domicile est la solution idéale pour les animaux qui préfèrent rester dans leur environnement familier. Qu'il s'agisse d'un chat indépendant, d'un chien âgé ou d'un animal nécessitant des soins spécifiques, nos Accompagnateurs Certifiés assurent une présence bienveillante. Chaque visite de 30 minutes comprend le renouvellement de l'eau, la distribution de nourriture, le nettoyage de la litière si nécessaire, et surtout, un moment privilégié de jeux et de câlins. C'est la garantie d'une routine préservée et d'un animal serein en votre absence.",
       forWhom: "Ce service s'adresse aux Propriétaires d'animaux (chiens, chats, NAC) qui s'absentent pour la journée ou pour quelques jours. C'est une alternative moins stressante que la pension, car l'animal garde ses repères, ses odeurs et ses habitudes. C'est aussi une sécurité pour votre domicile, car la visite régulière d'un Accompagnateur simule une présence.",
       problemsSolved: "DogWalking résout le problème du stress lié au changement d'environnement. En évitant le déplacement de votre animal, vous éliminez les risques de maladies contractées en collectivité et l'anxiété liée au transport. Notre système de Preuve Visuelle Obligatoire vous permet de voir votre animal chez vous, heureux et détendu, dès que l'Accompagnateur arrive sur place.",
-      benefits: "Votre animal reste calme et en sécurité dans son foyer. Vous recevez des nouvelles fraîches et des photos à chaque passage. Le paiement par séquestre vous garantit que la visite a bien eu lieu : vous ne libérez les fonds qu'une fois la mission terminée en donnant votre code unique à l'Accompagnateur."
+      benefits: "Votre animal reste calme et en sécurité dans son foyer. Vous recevez des nouvelles fraîches et des photos à chaque passage. Le paiement sécurisé vous garantit que la visite a bien eu lieu : vous ne libérez les fonds qu'une fois la mission terminée en donnant votre code unique à l'Accompagnateur."
     },
     howItWorks: {
       title: "Fonctionnement de la visite",
       intro: "Un protocole strict pour une sécurité maximale à votre domicile.",
       steps: [
-        { title: "Sélection & Réservation", description: "Choisissez votre Accompagnateur Certifié et bloquez les fonds en séquestre sur DogWalking." },
+        { title: "Sélection & Réservation", description: "Choisissez votre Accompagnateur Certifié et bloquez les fonds en paiement en attente sur DogWalking." },
         { title: "Consignes & Clés", description: "Organisez la remise des clés et transmettez vos consignes détaillées via la messagerie sécurisée." },
         { title: "Preuve d'Arrivée", description: "L'Accompagnateur envoie une photo ou vidéo dès son entrée à votre domicile pour confirmer le début de la visite." },
         { title: "Soins & Attention", description: "Réalisation des soins prévus : nourriture, eau, jeux et câlins pendant toute la durée de la visite." },
@@ -188,7 +188,7 @@ export const servicesData: Record<string, ServiceData> = {
     advantages: [
       "Maintien de l'animal dans son environnement familier (zéro stress)",
       "Accompagnateurs Certifiés rigoureusement sélectionnés (35% d'acceptation)",
-      "Paiement sécurisé par séquestre et déblocage par code unique",
+      "Paiement sécurisé sécurisé et déblocage par code unique",
       "Preuves visuelles obligatoires à chaque passage",
       "Nettoyage litière et soins de base inclus",
       "Simulation de présence à votre domicile",
@@ -212,7 +212,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "hebergement-chien",
     title: "Hébergement chez l'Accompagnateur",
     metaTitle: "Hébergement pour chien | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Votre chien séjourne chez un Accompagnateur Certifié DogWalking. Environnement familial, attention 24h/24, preuves visuelles et paiement par séquestre.",
+    metaDescription: "Votre chien séjourne chez un Accompagnateur Certifié DogWalking. Environnement familial, attention 24h/24, preuves visuelles et paiement sécurisé.",
     h1: "Hébergement en famille – Le confort comme à la maison",
     heroDescription: "Offrez à votre chien des vacances en famille chez l'un de nos Accompagnateurs Certifiés, dans un cadre sécurisé et chaleureux.",
     localZoneMention: "Service disponible partout en France",
@@ -230,14 +230,14 @@ export const servicesData: Record<string, ServiceData> = {
       intro: "L'hébergement chez l'Accompagnateur est l'alternative premium au chenil traditionnel. Votre chien est accueilli au sein d'un foyer chaleureux, où il partage la vie quotidienne de son Accompagnateur Certifié. Pas de cages, pas de box : votre compagnon bénéficie du confort d'une maison, de la présence humaine constante et de soins personnalisés. C'est la solution parfaite pour les Propriétaires qui souhaitent partir l'esprit tranquille, sachant que leur animal est traité comme un membre de la famille.",
       forWhom: "Ce service est conçu pour les chiens sociables qui apprécient la compagnie humaine et, éventuellement, celle d'autres congénères. C'est idéal pour les séjours de courte ou longue durée (vacances, déplacements professionnels, week-ends). Nos Accompagnateurs s'adaptent aux habitudes de votre chien : horaires de repas, types de promenades et rituels de sommeil.",
       problemsSolved: "DogWalking élimine le traumatisme lié à l'enfermement en pension. Nous résolvons le manque de transparence grâce à la Preuve Visuelle Obligatoire : vous recevez chaque jour des photos et vidéos de votre chien participant à la vie de famille. Le stress de la séparation est ainsi largement atténué pour le Propriétaire comme pour l'animal.",
-      benefits: "Un chien épanoui qui ne subit pas de rupture brutale avec ses habitudes de vie. Une sécurité financière totale grâce au séquestre : vous ne validez le paiement qu'à la fin du séjour en remettant votre code unique. Une protection professionnelle couvre l'animal durant toute la durée de l'hébergement."
+      benefits: "Un chien épanoui qui ne subit pas de rupture brutale avec ses habitudes de vie. Une sécurité financière totale grâce au paiement en attente : vous ne validez le paiement qu'à la fin du séjour en remettant votre code unique. Une protection professionnelle couvre l'animal durant toute la durée de l'hébergement."
     },
     howItWorks: {
       title: "Le séjour pas à pas",
       intro: "Une organisation rigoureuse pour des vacances canines réussies.",
       steps: [
         { title: "Rencontre préalable", description: "Nous conseillons une rencontre (gratuite ou via une promenade) pour vérifier l'entente entre le chien et l'Accompagnateur." },
-        { title: "Réservation & Séquestre", description: "Validation des dates et blocage sécurisé des fonds sur la plateforme DogWalking." },
+        { title: "Réservation & Paiement en Attente", description: "Validation des dates et blocage sécurisé des fonds sur la plateforme DogWalking." },
         { title: "Installation", description: "Arrivée du chien avec ses affaires (panier, nourriture, jouets). Preuve visuelle d'arrivée envoyée immédiatement." },
         { title: "Suivi Quotidien", description: "Envoi régulier de photos et vidéos pour vous faire partager le quotidien de votre compagnon." },
         { title: "Fin de Séjour", description: "Récupération de l'animal et transmission du code unique pour libérer le paiement de l'Accompagnateur." }
@@ -255,7 +255,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Cadre familial chaleureux (pas de box ni de cages)",
       "Attention et présence humaine constante (24h/24)",
       "Accompagnateurs Certifiés sélectionnés avec rigueur (35% d'acceptation)",
-      "Paiement par séquestre : libération par code unique en fin de séjour",
+      "Paiement sécurisé : libération par code unique en fin de séjour",
       "Preuves visuelles quotidiennes (photos/vidéos)",
       "Respect strict du régime alimentaire et des habitudes de l'animal",
       "Protection professionnelle incluse",
@@ -278,7 +278,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "garderie-chien",
     title: "Garderie de jour",
     metaTitle: "Garderie de jour pour chien | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Votre chien passe la journée chez un Accompagnateur Certifié. Jeux, socialisation et attention. Preuves visuelles obligatoires et paiement sécurisé par séquestre.",
+    metaDescription: "Votre chien passe la journée chez un Accompagnateur Certifié. Jeux, socialisation et attention. Preuves visuelles obligatoires et paiement sécurisé en attente.",
     h1: "Garderie de jour – Une journée active et entourée",
     heroDescription: "Confiez votre chien à un Accompagnateur Certifié pour la journée : il bénéficiera de jeux, de promenades et d'une compagnie constante.",
     localZoneMention: "Service disponible partout en France",
@@ -295,7 +295,7 @@ export const servicesData: Record<string, ServiceData> = {
     description: {
       intro: "La garderie de jour est la solution parfaite pour les Propriétaires qui travaillent de longues heures et ne souhaitent pas laisser leur chien seul à la maison. Votre compagnon est accueilli le matin chez un Accompagnateur Certifié et récupéré le soir. Durant toute la journée, il participe à la vie du foyer, bénéficie de sorties régulières et d'interactions sociales stimulantes. C'est bien plus qu'une simple garde : c'est une journée d'éveil et de bien-être qui garantit un chien calme et équilibré à votre retour.",
       forWhom: "Ce service s'adresse aux chiens de tous âges qui ont besoin de compagnie ou de dépense d'énergie en journée. C'est particulièrement bénéfique pour les chiots en phase d'apprentissage de la propreté et de la socialisation, ou pour les chiens souffrant d'anxiété de séparation. Nos Accompagnateurs offrent un cadre sécurisé et une attention que seul un milieu familial peut apporter.",
-      problemsSolved: "DogWalking résout le problème de la solitude prolongée et des comportements destructeurs liés à l'ennui. Grâce à la Preuve Visuelle Obligatoire, vous recevez des nouvelles de la journée de votre chien directement sur votre smartphone. Le système de paiement par séquestre assure que la prestation est validée selon vos critères : vous donnez votre code unique à l'Accompagnateur le soir lors de la récupération.",
+      problemsSolved: "DogWalking résout le problème de la solitude prolongée et des comportements destructeurs liés à l'ennui. Grâce à la Preuve Visuelle Obligatoire, vous recevez des nouvelles de la journée de votre chien directement sur votre smartphone. Le système de paiement sécurisé assure que la prestation est validée selon vos critères : vous donnez votre code unique à l'Accompagnateur le soir lors de la récupération.",
       benefits: "Un chien stimulé physiquement et mentalement, mieux socialisé et moins stressé. Une tranquillité d'esprit totale pour le Propriétaire qui sait son animal entre de bonnes mains. Une protection professionnelle accompagne chaque journée de garderie pour une sécurité optimale."
     },
     howItWorks: {
@@ -321,7 +321,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Zéro solitude pour votre chien durant vos heures de travail",
       "Socialisation encadrée et positive avec d'autres animaux",
       "Accompagnateurs Certifiés rigoureusement sélectionnés (35% d'acceptation)",
-      "Paiement par séquestre et déblocage par code unique",
+      "Paiement sécurisé et déblocage par code unique",
       "Preuves visuelles obligatoires durant la journée",
       "Alternance équilibrée entre dépenses physiques et repos",
       "Protection professionnelle incluse",
@@ -361,7 +361,7 @@ export const servicesData: Record<string, ServiceData> = {
     description: {
       intro: "La garde à votre domicile (ou 'house-sitting') est le service de luxe par excellence pour vos animaux. Un Accompagnateur Certifié DogWalking vient séjourner chez vous pour prendre soin de vos compagnons et veiller sur votre maison. C'est la solution ultime pour les animaux très attachés à leur territoire, les seniors ou les foyers multi-animaux. Vos compagnons ne subissent aucun changement de routine : ils dorment dans leur panier, mangent à leurs heures habituelles et profitent de leurs promenades de quartier, le tout sous la surveillance d'un professionnel dédié.",
       forWhom: "Ce service est idéal pour les Propriétaires qui s'absentent plusieurs jours et ne souhaitent pas déplacer leurs animaux. C'est particulièrement recommandé pour les chiens anxieux, les chats territoriaux ou si vous possédez plusieurs animaux (chiens, chats, oiseaux, etc.). C'est aussi une garantie de sécurité pour votre maison qui reste habitée et entretenue en votre absence.",
-      problemsSolved: "DogWalking résout la double problématique de la garde d'animaux et de la sécurité du domicile. La Preuve Visuelle Obligatoire vous assure quotidiennement que vos animaux sont choyés et que tout se passe bien chez vous. Le paiement par séquestre garantit que le service est rendu selon vos exigences : vous ne communiquez le code unique qu'à votre retour, une fois la mission accomplie.",
+      problemsSolved: "DogWalking résout la double problématique de la garde d'animaux et de la sécurité du domicile. La Preuve Visuelle Obligatoire vous assure quotidiennement que vos animaux sont choyés et que tout se passe bien chez vous. Le paiement sécurisé garantit que le service est rendu selon vos exigences : vous ne communiquez le code unique qu'à votre retour, une fois la mission accomplie.",
       benefits: "Absence totale de stress pour vos animaux qui gardent tous leurs repères. Une maison surveillée et des plantes arrosées. Une protection professionnelle couvre l'Accompagnateur et vos animaux durant toute la mission. La tranquillité d'esprit d'un service haut de gamme validé par vos soins."
     },
     howItWorks: {
@@ -369,7 +369,7 @@ export const servicesData: Record<string, ServiceData> = {
       intro: "Un protocole de confiance pour ouvrir votre porte en toute sérénité.",
       steps: [
         { title: "Rencontre & Sélection", description: "Rencontrez votre Accompagnateur Certifié chez vous pour valider le 'feeling' et présenter les lieux." },
-        { title: "Réservation & Séquestre", description: "Validation des dates et blocage sécurisé des fonds sur la plateforme DogWalking." },
+        { title: "Réservation & Paiement en Attente", description: "Validation des dates et blocage sécurisé des fonds sur la plateforme DogWalking." },
         { title: "Prise de Poste", description: "L'Accompagnateur s'installe chez vous. Envoi immédiat d'une photo/vidéo de début de mission." },
         { title: "Vie Quotidienne", description: "Suivi rigoureux de vos consignes et envoi quotidien de preuves visuelles de vos animaux." },
         { title: "Retour & Validation", description: "À votre retour, vous récupérez votre foyer et transmettez le code unique pour libérer le paiement." }
@@ -387,7 +387,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Zéro changement pour vos animaux (routine 100% préservée)",
       "Présence constante et rassurante à votre domicile",
       "Accompagnateurs Certifiés sélectionnés avec la plus grande rigueur (35%)",
-      "Paiement par séquestre et déblocage par code unique au retour",
+      "Paiement sécurisé et déblocage par code unique au retour",
       "Preuves visuelles quotidiennes obligatoires",
       "Surveillance et entretien léger de votre domicile inclus",
       "Solution idéale pour les foyers multi-animaux",
@@ -410,7 +410,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "visite-sanitaire",
     title: "Visite Sanitaire & Hygiène",
     metaTitle: "Visite Sanitaire pour animaux | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Soins d'hygiène et bien-être pour votre animal à domicile. Brossage, nettoyage, soins légers. Preuves visuelles et paiement sécurisé par séquestre.",
+    metaDescription: "Soins d'hygiène et bien-être pour votre animal à domicile. Brossage, nettoyage, soins légers. Preuves visuelles et paiement sécurisé en attente.",
     h1: "Visite Sanitaire – Le bien-être et l'hygiène à domicile",
     heroDescription: "Nos Accompagnateurs Certifiés assurent les soins d'hygiène de base de votre animal pour son confort et sa santé au quotidien.",
     localZoneMention: "Service disponible partout en France",
@@ -427,7 +427,7 @@ export const servicesData: Record<string, ServiceData> = {
     description: {
       intro: "La visite sanitaire est un service spécialisé axé sur l'hygiène et le bien-être physique de votre animal. Durant 45 minutes, un Accompagnateur Certifié se déplace à votre domicile pour effectuer les soins de base essentiels : brossage minutieux (idéal en période de mue), nettoyage des yeux et des oreilles, vérification des coussinets ou administration de soins légers prescrits. Ce n'est pas un toilettage complet, mais un entretien régulier qui prévient les problèmes de santé et assure le confort de votre compagnon entre deux rendez-vous chez le professionnel.",
       forWhom: "Ce service est idéal pour les Propriétaires d'animaux à poils longs nécessitant un brossage fréquent, pour les animaux âgés ayant besoin d'une aide à la toilette, ou pour assurer le suivi d'un traitement simple en votre absence. C'est aussi une excellente solution pour les animaux stressés par les salons de toilettage, car les soins sont prodigués dans le calme de leur foyer.",
-      problemsSolved: "DogWalking résout le problème du manque de temps pour l'entretien régulier de l'animal. Nous éliminons le stress du transport pour les soins de base. Grâce à la Preuve Visuelle Obligatoire, vous recevez des photos 'avant/après' ou des vidéos du soin en cours. Le paiement par séquestre vous garantit la réalisation effective du soin : vous donnez le code unique une fois la visite sanitaire terminée.",
+      problemsSolved: "DogWalking résout le problème du manque de temps pour l'entretien régulier de l'animal. Nous éliminons le stress du transport pour les soins de base. Grâce à la Preuve Visuelle Obligatoire, vous recevez des photos 'avant/après' ou des vidéos du soin en cours. Le paiement sécurisé vous garantit la réalisation effective du soin : vous donnez le code unique une fois la visite sanitaire terminée.",
       benefits: "Un animal propre, sans nœuds et en bonne santé. Une détection précoce d'éventuels problèmes cutanés ou parasitaires. Une protection professionnelle accompagne chaque visite. Le confort d'un soin professionnel à domicile validé par vos soins via le code unique."
     },
     howItWorks: {
@@ -453,7 +453,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Entretien régulier pour la santé et le confort de l'animal",
       "Zéro stress : les soins sont faits à domicile",
       "Accompagnateurs Certifiés sélectionnés pour leur douceur (35%)",
-      "Paiement par séquestre et déblocage par code unique",
+      "Paiement sécurisé et déblocage par code unique",
       "Preuves visuelles obligatoires des soins effectués",
       "Détection précoce d'anomalies (tiques, rougeurs, etc.)",
       "Idéal pour les animaux âgés ou stressés",
@@ -476,7 +476,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "accompagnement-veterinaire",
     title: "Accompagnement Vétérinaire",
     metaTitle: "Accompagnement Vétérinaire | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Transport et accompagnement de votre animal chez le vétérinaire. Prise en charge complète, preuves visuelles et paiement sécurisé par séquestre.",
+    metaDescription: "Transport et accompagnement de votre animal chez le vétérinaire. Prise en charge complète, preuves visuelles et paiement sécurisé en attente.",
     h1: "Accompagnement Vétérinaire – La logistique santé simplifiée",
     heroDescription: "Nos Accompagnateurs Certifiés prennent en charge le transport et l'accompagnement de votre animal pour ses rendez-vous santé.",
     localZoneMention: "Service disponible partout en France",
@@ -493,7 +493,7 @@ export const servicesData: Record<string, ServiceData> = {
     description: {
       intro: "L'accompagnement vétérinaire est le service indispensable pour les Propriétaires dont l'emploi du temps ne permet pas de se rendre aux rendez-vous médicaux de leur animal. Un Accompagnateur Certifié vient chercher votre compagnon à votre domicile, assure son transport sécurisé jusqu'à la clinique vétérinaire, assiste à la consultation si nécessaire et ramène l'animal chez vous. C'est la garantie que la santé de votre compagnon n'est jamais négligée, même quand vous êtes débordé. L'Accompagnateur assure également la transmission fidèle des informations et des prescriptions du vétérinaire.",
       forWhom: "Ce service s'adresse aux Propriétaires actifs, aux personnes sans moyen de transport adapté, ou aux personnes à mobilité réduite. C'est aussi une solution précieuse pour les urgences programmées ou les suivis réguliers (vaccins, contrôles, soins chroniques). Nos Accompagnateurs gèrent toute la logistique pour vous.",
-      problemsSolved: "DogWalking résout le stress du transport et les contraintes horaires. Nous éliminons l'incertitude grâce à la Preuve Visuelle Obligatoire : vous recevez une photo de la prise en charge, une autre à la clinique et une dernière au retour. Le paiement par séquestre sécurise la mission : vous ne libérez les fonds qu'après avoir reçu le compte-rendu de la consultation et récupéré votre animal en donnant votre code unique.",
+      problemsSolved: "DogWalking résout le stress du transport et les contraintes horaires. Nous éliminons l'incertitude grâce à la Preuve Visuelle Obligatoire : vous recevez une photo de la prise en charge, une autre à la clinique et une dernière au retour. Le paiement sécurisé sécurise la mission : vous ne libérez les fonds qu'après avoir reçu le compte-rendu de la consultation et récupéré votre animal en donnant votre code unique.",
       benefits: "Un suivi santé rigoureux pour votre animal. Un transport sécurisé et professionnel. Une protection professionnelle accompagne chaque trajet. La tranquillité d'esprit d'un service complet validé par vos soins via le code unique."
     },
     howItWorks: {
@@ -519,7 +519,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Prise en charge complète du rendez-vous vétérinaire",
       "Transport sécurisé aller-retour inclus",
       "Accompagnateurs Certifiés rigoureusement sélectionnés (35%)",
-      "Paiement par séquestre et déblocage par code unique",
+      "Paiement sécurisé et déblocage par code unique",
       "Preuves visuelles à chaque étape (départ, clinique, retour)",
       "Transmission fidèle du compte-rendu médical",
       "Gain de temps précieux pour le Propriétaire",

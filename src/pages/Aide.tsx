@@ -24,7 +24,7 @@ const faqCategories = {
     faqs: [
       {
         question: "Comment fonctionne DogWalking pour trouver un Accompagnateur Certifié ?",
-        answer: "Consultez les Profils, Avis et Tarifs des Accompagnateurs Certifiés disponibles près de chez vous. Le paiement est sécurisé via séquestre et libéré uniquement à la fin de la prestation, après saisie par vos soins d'un code à usage unique. Choisissez le service souhaité, entrez votre adresse et sélectionnez un ou plusieurs Accompagnateurs Certifiés : votre demande est envoyée et reste en attente de leur confirmation. Vous pouvez également déposer une annonce libre en définissant votre budget ; vous recevrez des propositions de prestataires et pourrez choisir le profil le plus adapté."
+        answer: "Consultez les Profils, Avis et Tarifs des Accompagnateurs Certifiés disponibles près de chez vous. Le paiement est sécurisé via paiement en attente et libéré uniquement à la fin de la prestation, après saisie par vos soins d'un code à usage unique. Choisissez le service souhaité, entrez votre adresse et sélectionnez un ou plusieurs Accompagnateurs Certifiés : votre demande est envoyée et reste en attente de leur confirmation. Vous pouvez également déposer une annonce libre en définissant votre budget ; vous recevrez des propositions de prestataires et pourrez choisir le profil le plus adapté."
       },
       {
         question: "Les Accompagnateurs sont-ils vraiment vérifiés ?",
@@ -32,7 +32,7 @@ const faqCategories = {
       },
       {
         question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
-        answer: "Grâce à notre système de paiement par séquestre, votre argent reste protégé jusqu'à la validation finale. Seul le Propriétaire détient le code à usage unique, qu'il communique à l'Accompagnateur Certifié à la fin du service pour débloquer le paiement. Si le prestataire n'envoie pas les preuves visuelles obligatoires (photo/vidéo) ou si la prestation ne correspond pas à vos attentes, vous pouvez contester. Notre équipe support intervient sous 48h pour résoudre le litige."
+        answer: "Grâce à notre système de paiement sécurisé, votre argent reste protégé jusqu'à la validation finale. Seul le Propriétaire détient le code à usage unique, qu'il communique à l'Accompagnateur Certifié à la fin du service pour débloquer le paiement. Si le prestataire n'envoie pas les preuves visuelles obligatoires (photo/vidéo) ou si la prestation ne correspond pas à vos attentes, vous pouvez contester. Notre équipe support intervient sous 48h pour résoudre le litige."
       },
       {
         question: "Puis-je annuler une réservation et être remboursé ?",
@@ -71,7 +71,7 @@ const faqCategories = {
       },
       {
         question: "Quels sont les frais de service ?",
-        answer: "DogWalking prélève une commission de 15% sur chaque transaction. Les 85% restants vous sont intégralement reversés. Ces frais financent la plateforme, le support client et le système de séquestre sécurisé."
+        answer: "DogWalking prélève une commission de 15% sur chaque transaction. Les 85% restants vous sont intégralement reversés. Ces frais financent la plateforme, le support client et le système de paiement sécurisé sécurisé."
       },
       {
         question: "L'abonnement PRO est-il obligatoire ?",
@@ -80,17 +80,17 @@ const faqCategories = {
     ]
   },
   Paiement: {
-    title: "Paiement & Séquestre",
+    title: "Paiement & Paiement en Attente",
     icon: CreditCard,
     description: "Comprendre le système de paiement sécurisé",
     faqs: [
       {
-        question: "Comment fonctionne le paiement par séquestre ?",
-        answer: "Le montant de la prestation est prélevé lors de la réservation mais reste bloqué sur un compte tiers sécurisé (séquestre). Il n'est versé à l'Accompagnateur Certifié qu'une fois la mission terminée et validée par votre code unique."
+        question: "Comment fonctionne le paiement sécurisé ?",
+        answer: "Le montant de la prestation est prélevé lors de la réservation mais reste bloqué sur un compte tiers sécurisé (paiement en attente). Il n'est versé à l'Accompagnateur Certifié qu'une fois la mission terminée et validée par votre code unique."
       },
       {
         question: "Que comprennent les frais de service ?",
-        answer: "Les frais de service incluent l'accès à la plateforme sécurisée, la vérification manuelle des profils, le support client disponible 7j/7, et la gestion du système de séquestre garantissant le paiement."
+        answer: "Les frais de service incluent l'accès à la plateforme sécurisée, la vérification manuelle des profils, le support client disponible 7j/7, et la gestion du système de paiement sécurisé garantissant le paiement."
       },
       {
         question: "Puis-je donner un pourboire à l'Accompagnateur Certifié ?",
@@ -98,7 +98,7 @@ const faqCategories = {
       },
       {
         question: "Que se passe-t-il si la prestation n'est pas effectuée ?",
-        answer: "Si aucune preuve visuelle n'est envoyée ou si la prestation n'a pas eu lieu, l'argent reste sous séquestre et vous êtes remboursé intégralement après vérification par notre support."
+        answer: "Si aucune preuve visuelle n'est envoyée ou si la prestation n'a pas eu lieu, l'argent reste sous paiement en attente et vous êtes remboursé intégralement après vérification par notre support."
       }
     ]
   },
@@ -158,7 +158,7 @@ const Aide = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Centre d'Aide & FAQ | DogWalking France"
-        description="Besoin d'aide ? Retrouvez toutes les réponses sur le fonctionnement de DogWalking, le paiement par séquestre et la certification des Accompagnateurs."
+        description="Besoin d'aide ? Retrouvez toutes les réponses sur le fonctionnement de DogWalking, le paiement sécurisé et la certification des Accompagnateurs."
         canonical="https://dogwalking.fr/aide"
       />
       
@@ -181,7 +181,7 @@ const Aide = () => {
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                 <input
                   type="text"
-                  placeholder="Rechercher une réponse (ex: séquestre, code unique, prix...)"
+                  placeholder="Rechercher une réponse (ex: paiement en attente, code unique, prix...)"
                   className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-primary/10 focus:border-primary focus:ring-4 focus:ring-primary/5 outline-none transition-all text-lg shadow-sm"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}

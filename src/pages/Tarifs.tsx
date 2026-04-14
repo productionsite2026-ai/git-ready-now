@@ -35,7 +35,7 @@ const Tarifs = () => {
       name: "Hébergement nuit",
       minPrice: "10€",
       description: "Nuit en toute sécurité",
-      features: ["Nuit complète (chez vous ou l'Accompagnateur Certifié)", "Environnement familial et chaleureux", "Preuves visuelles (soir et matin)", "Paiement sécurisé par séquestre"],
+      features: ["Nuit complète (chez vous ou l'Accompagnateur Certifié)", "Environnement familial et chaleureux", "Preuves visuelles (soir et matin)", "Paiement sécurisé sécurisé"],
       popular: true,
       icon: "🌙"
     },
@@ -71,7 +71,7 @@ const Tarifs = () => {
 
   const guarantees = [
     { icon: Shield, title: "Accompagnateurs Certifiés", description: "Identité (CNI) et documents vérifiés manuellement", variant: "primary" as const },
-    { icon: Lock, title: "Paiement par Séquestre", description: "Fonds bloqués et libérés uniquement par code unique", variant: "accent" as const },
+    { icon: Lock, title: "Paiement Sécurisé", description: "Fonds bloqués et libérés uniquement par code unique", variant: "accent" as const },
     { icon: Camera, title: "Preuve Visuelle", description: "Photo/vidéo obligatoire à chaque étape de mission", variant: "success" as const },
     { icon: CreditCard, title: "Tarifs Libres", description: "Prix fixés par les Accompagnateurs (85% reversés)", variant: "warning" as const }
   ];
@@ -82,7 +82,7 @@ const Tarifs = () => {
       answer: "DogWalking affiche des tarifs indicatifs (« à partir de… »). Chaque Accompagnateur Certifié est libre de fixer ses propres tarifs en fonction de son expérience et de sa zone géographique. La durée et les modalités des prestations sont définies d'un commun accord entre le Propriétaire et l'Accompagnateur Certifié."
     },
     {
-      question: "Qu'est-ce que le système de séquestre ?",
+      question: "Qu'est-ce que le système de paiement sécurisé ?",
       answer: "C'est votre garantie sécurité. Lors de la réservation, le montant total est prélevé et bloqué par DogWalking. L'argent n'est jamais versé directement à l'Accompagnateur avant la fin de la mission. Vous restez maître de vos fonds jusqu'à la validation finale."
     },
     {
@@ -103,7 +103,7 @@ const Tarifs = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Tarifs DogWalking | Prix Promenade, Garde & Soins"
-        description="Découvrez nos tarifs indicatifs : promenade à partir de 8€, garde à partir de 10€. Système de paiement par séquestre sécurisé avec code unique et preuves visuelles obligatoires."
+        description="Découvrez nos tarifs indicatifs : promenade à partir de 8€, garde à partir de 10€. Système de paiement sécurisé sécurisé avec code unique et preuves visuelles obligatoires."
         canonical="https://dogwalking.fr/tarifs"
       />
       <Header />
@@ -146,7 +146,7 @@ const Tarifs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Tarifs libres fixés par les Accompagnateurs Certifiés. Paiement par séquestre sécurisé.
+              Tarifs libres fixés par les Accompagnateurs Certifiés. Paiement sécurisé sécurisé.
             </motion.p>
           </div>
         </motion.div>
@@ -173,7 +173,7 @@ const Tarifs = () => {
             Une tarification transparente et flexible
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Chez DogWalking, chaque Accompagnateur Certifié définit ses propres tarifs. Les montants affichés sont indicatifs (« à partir de… »). Votre paiement est intégralement bloqué par notre système de séquestre au moment de la réservation et n'est libéré qu'à la fin de la mission grâce à votre code unique de validation. Ce processus garantit que chaque prestation payée est une prestation réalisée et documentée par des preuves visuelles.
+            Chez DogWalking, chaque Accompagnateur Certifié définit ses propres tarifs. Les montants affichés sont indicatifs (« à partir de… »). Votre paiement est intégralement bloqué par notre système de paiement sécurisé au moment de la réservation et n'est libéré qu'à la fin de la mission grâce à votre code unique de validation. Ce processus garantit que chaque prestation payée est une prestation réalisée et documentée par des preuves visuelles.
           </p>
         </motion.div>
 
@@ -229,7 +229,7 @@ const Tarifs = () => {
 
         <div className="max-w-4xl mx-auto space-y-12">
           <SectionHeader
-            title="Le Système de Séquestre DogWalking"
+            title="Le Système de Paiement Sécurisé DogWalking"
             subtitle="Une sécurité financière totale pour le Propriétaire et une garantie de paiement pour l'Accompagnateur Certifié"
             icon={Lock}
             iconVariant="accent"
@@ -241,9 +241,9 @@ const Tarifs = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold mb-4">Pourquoi le séquestre ?</h3>
+              <h3 className="text-2xl font-bold mb-4">Pourquoi le paiement en attente ?</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Le séquestre protège les deux parties. Le Propriétaire a l'assurance que son argent n'est libéré qu'une fois la mission terminée et validée par ses soins. L'Accompagnateur Certifié a la garantie que les fonds sont déjà réservés et disponibles dès la fin de son service.
+                Le paiement en attente protège les deux parties. Le Propriétaire a l'assurance que son argent n'est libéré qu'une fois la mission terminée et validée par ses soins. L'Accompagnateur Certifié a la garantie que les fonds sont déjà réservés et disponibles dès la fin de son service.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center gap-2">

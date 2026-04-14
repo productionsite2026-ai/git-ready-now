@@ -36,8 +36,8 @@ export const HomeIntroSection = () => {
     },
     {
       icon: Lock,
-      title: "Paiement par Séquestre",
-      description: "Le paiement est sécurisé et bloqué par séquestre jusqu’à votre validation à la fin du service. Le Propriétaire transmet son code unique pour libérer les fonds.",
+      title: "Paiement Sécurisé",
+      description: "Le paiement est sécurisé et bloqué sécurisé jusqu’à votre validation à la fin du service. Le Propriétaire transmet son code unique pour libérer les fonds.",
       highlight: "Innovation unique en France",
       image: validationPayment,
       color: "from-accent/20 to-accent/10"

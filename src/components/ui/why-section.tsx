@@ -35,8 +35,8 @@ export const WhySection = () => {
     },
     {
       icon: Lock,
-      title: "Séquestre",
-      description: "Vos fonds sont sécurisés par séquestre et bloqués jusqu'à la fin de la mission. Zéro risque financier.",
+      title: "Paiement en Attente",
+      description: "Vos fonds sont sécurisés sécurisé et bloqués jusqu'à la fin de la mission. Zéro risque financier.",
       gradient: "from-primary to-primary/70",
       bgGradient: "from-primary/10 to-primary/5"
     },

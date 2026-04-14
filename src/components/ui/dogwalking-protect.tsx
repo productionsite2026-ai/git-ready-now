@@ -16,7 +16,7 @@ export const DogWalkingProtect = () => {
     },
     {
       icon: Lock,
-      title: "Paiement par Séquestre",
+      title: "Paiement Sécurisé",
       description: "Votre paiement reste bloqué tant que vous n'avez pas communiqué votre code unique. Zéro risque.",
       stat: "Sécurisé"
     },
@@ -48,7 +48,7 @@ export const DogWalkingProtect = () => {
             <Shield className="h-4 w-4" />
             <span className="text-sm font-medium">Sécurité Maximale</span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">DogWalking Protect (Séquestre)™</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">DogWalking Protect™</h2>
           <p className="text-base md:text-lg opacity-90 max-w-2xl mx-auto">
             Notre garantie exclusive pour votre tranquillité d'esprit et la sécurité de votre animal
           </p>
