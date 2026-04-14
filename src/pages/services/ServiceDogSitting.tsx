@@ -80,28 +80,12 @@ const ServiceDogSitting = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Options de garde à domicile",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Dog sitting demi-journée",
-          "price": "25",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Dog sitting journée complète",
-          "price": "40",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Dog sitting avec nuit",
-          "price": "55",
-          "priceCurrency": "EUR"
-        }
+        { "@type": "Offer", "name": "Garde à domicile", "priceCurrency": "EUR" }
       ]
     }
   };

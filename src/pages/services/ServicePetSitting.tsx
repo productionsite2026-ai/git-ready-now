@@ -80,28 +80,12 @@ const ServicePetSitting = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Options de garde multi-animaux",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Visite garde multi-animaux 30 min",
-          "price": "10",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Visite garde multi-animaux 1h",
-          "price": "18",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Forfait journée multi-animaux",
-          "price": "35",
-          "priceCurrency": "EUR"
-        }
+        { "@type": "Offer", "name": "Garde multi-animaux", "priceCurrency": "EUR" }
       ]
     }
   };
