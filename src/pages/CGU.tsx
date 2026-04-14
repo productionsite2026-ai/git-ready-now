@@ -115,7 +115,7 @@ const CGU = () => {
             
             <h3 className="text-xl font-medium mb-2 mt-4">5.2 Système de Paiement Sécurisé et Code Unique</h3>
             <p className="text-muted-foreground">
-              Le paiement est sécurisé sécurisé lors de la réservation. Les fonds ne sont débloqués à l'Accompagnateur Certifié 
+              Le paiement est sécurisé lors de la réservation. Les fonds ne sont débloqués à l'Accompagnateur Certifié 
               qu'une fois que le Propriétaire a communiqué son code unique de validation à la fin de la mission.
             </p>
             

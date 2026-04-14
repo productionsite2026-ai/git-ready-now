@@ -195,7 +195,7 @@ const BookWalk = () => {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/30">
       <SEOHead
         title="Réserver une Prestation | DogWalking"
-        description="Réservez une prestation pour votre Animal avec un Accompagnateur Certifié. Paiement sécurisé sécurisé."
+        description="Réservez une prestation pour votre Animal avec un Accompagnateur Certifié. Paiement sécurisé."
       />
       <Header />
       <main className="container mx-auto px-4 py-24 max-w-5xl">

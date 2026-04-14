@@ -79,7 +79,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "promenade-chien",
     title: "Promenade de chien",
     metaTitle: "Promenade de chien | Accompagnateurs Certifiés | DogWalking",
-    metaDescription: "Trouvez un Accompagnateur Certifié DogWalking pour la promenade de votre chien. Preuves visuelles obligatoires, paiement sécurisé sécurisé et code unique.",
+    metaDescription: "Trouvez un Accompagnateur Certifié DogWalking pour la promenade de votre chien. Preuves visuelles obligatoires, paiement sécurisé et code unique.",
     h1: "Promenade de chien – Accompagnateurs Certifiés DogWalking",
     heroDescription: "Offrez à votre chien l'exercice et la stimulation dont il a besoin avec nos Accompagnateurs Certifiés, sélectionnés rigoureusement pour leur expertise.",
     localZoneMention: "Service disponible partout en France",
@@ -188,7 +188,7 @@ export const servicesData: Record<string, ServiceData> = {
     advantages: [
       "Maintien de l'animal dans son environnement familier (zéro stress)",
       "Accompagnateurs Certifiés rigoureusement sélectionnés (35% d'acceptation)",
-      "Paiement sécurisé sécurisé et déblocage par code unique",
+      "Paiement sécurisé et déblocage par code unique",
       "Preuves visuelles obligatoires à chaque passage",
       "Nettoyage litière et soins de base inclus",
       "Simulation de présence à votre domicile",

@@ -71,7 +71,7 @@ const faqCategories = {
       },
       {
         question: "Quels sont les frais de service ?",
-        answer: "DogWalking prélève une commission de 15% sur chaque transaction. Les 85% restants vous sont intégralement reversés. Ces frais financent la plateforme, le support client et le système de paiement sécurisé sécurisé."
+        answer: "DogWalking prélève une commission de 15% sur chaque transaction. Les 85% restants vous sont intégralement reversés. Ces frais financent la plateforme, le support client et le système de paiement sécurisé."
       },
       {
         question: "L'abonnement PRO est-il obligatoire ?",

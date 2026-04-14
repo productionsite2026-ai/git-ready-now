@@ -147,7 +147,7 @@ const RessourcesLegales = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Article 4 - Tarifs et Paiement</h2>
                 <p className="text-muted-foreground mb-4">
-                  Les tarifs sont librement fixés par les Accompagnateurs Certifiés ("À partir de..."). Le paiement est sécurisé sécurisé et libéré uniquement après saisie du code unique par le Propriétaire.
+                  Les tarifs sont librement fixés par les Accompagnateurs Certifiés ("À partir de..."). Le paiement est sécurisé et libéré uniquement après saisie du code unique par le Propriétaire.
                 </p>
                 <h3 className="text-xl font-medium mb-2">Annulation</h3>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">

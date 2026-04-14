@@ -206,7 +206,7 @@ export const ServicesSection = () => {
           <div className="inline-flex items-center gap-3 bg-card rounded-2xl px-6 py-4 shadow-soft border border-border mb-8">
             <Shield className="h-6 w-6 text-primary" />
             <span className="text-sm md:text-base">
-              <strong>Garantie DogWalking :</strong> Preuves visuelles obligatoires + Paiement sécurisé sécurisé
+              <strong>Garantie DogWalking :</strong> Preuves visuelles obligatoires + Paiement sécurisé
             </span>
           </div>
           <div>

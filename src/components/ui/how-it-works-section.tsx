@@ -20,7 +20,7 @@ export const HowItWorksSection = () => {
       number: "2",
       icon: Calendar,
       title: "Réservez",
-      description: "Déposez une annonce spécifique ou choisissez le service, la date et l’heure. Votre paiement est sécurisé sécurisé et bloqué jusqu’à votre validation lors du retour de votre animal.",
+      description: "Déposez une annonce spécifique ou choisissez le service, la date et l’heure. Votre paiement est sécurisé et bloqué jusqu’à votre validation lors du retour de votre animal.",
       highlight: "Paiement bloqué",
       image: bookingReservation
     },

@@ -35,7 +35,7 @@ const Tarifs = () => {
       name: "Hébergement nuit",
       minPrice: "10€",
       description: "Nuit en toute sécurité",
-      features: ["Nuit complète (chez vous ou l'Accompagnateur Certifié)", "Environnement familial et chaleureux", "Preuves visuelles (soir et matin)", "Paiement sécurisé sécurisé"],
+      features: ["Nuit complète (chez vous ou l'Accompagnateur Certifié)", "Environnement familial et chaleureux", "Preuves visuelles (soir et matin)", "Paiement sécurisé"],
       popular: true,
       icon: "🌙"
     },
@@ -103,7 +103,7 @@ const Tarifs = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Tarifs DogWalking | Prix Promenade, Garde & Soins"
-        description="Découvrez nos tarifs indicatifs : promenade à partir de 8€, garde à partir de 10€. Système de paiement sécurisé sécurisé avec code unique et preuves visuelles obligatoires."
+        description="Découvrez nos tarifs indicatifs : promenade à partir de 8€, garde à partir de 10€. Système de paiement sécurisé avec code unique et preuves visuelles obligatoires."
         canonical="https://dogwalking.fr/tarifs"
       />
       <Header />
@@ -146,7 +146,7 @@ const Tarifs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Tarifs libres fixés par les Accompagnateurs Certifiés. Paiement sécurisé sécurisé.
+              Tarifs libres fixés par les Accompagnateurs Certifiés. Paiement sécurisé.
             </motion.p>
           </div>
         </motion.div>
