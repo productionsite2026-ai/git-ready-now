@@ -71,8 +71,8 @@ const Tarifs = () => {
 
   const guarantees = [
     { icon: Shield, title: "Accompagnateurs Certifiés", description: "Identité (CNI) et documents vérifiés manuellement", variant: "primary" as const },
-    { icon: Lock, title: "Paiement Sécurisé", description: "Fonds bloqués et libérés uniquement par code unique", variant: "accent" as const },
-    { icon: Camera, title: "Preuve Visuelle", description: "Photo/vidéo obligatoire à chaque étape de mission", variant: "success" as const },
+    { icon: Lock, title: "Paiement Sécurisé", description: "Fonds bloqués et libérés par le code de fin de service", variant: "accent" as const },
+    { icon: Camera, title: "Preuve Visuelle", description: "Photo/vidéo recommandées pour un meilleur classement", variant: "success" as const },
     { icon: CreditCard, title: "Tarifs Libres", description: "Prix fixés par les Accompagnateurs (85% reversés)", variant: "warning" as const }
   ];
 
@@ -83,15 +83,15 @@ const Tarifs = () => {
     },
     {
       question: "Qu'est-ce que le système de paiement sécurisé ?",
-      answer: "C'est votre garantie sécurité. Lors de la réservation, le montant total est prélevé et bloqué par DogWalking. L'argent n'est jamais versé directement à l'Accompagnateur avant la fin de la mission. Vous restez maître de vos fonds jusqu'à la validation finale."
+      answer: "C'est votre garantie sécurité. Lors de la réservation, le montant total est prélevé et bloqué par DogWalking. L'argent n'est jamais versé directement à l'Accompagnateur avant la fin de la mission. Vous restez maître de vos fonds jusqu'à la communication du code de fin de service."
     },
     {
-      question: "À quoi sert le code unique de déblocage ?",
-      answer: "Le code unique est la preuve finale de votre satisfaction. Une fois la mission terminée et les preuves visuelles reçues, vous communiquez ce code à l'Accompagnateur. Sa saisie sur son dashboard libère le paiement. Sans ce code, aucun fonds n'est versé."
+      question: "À quoi sert le code de fin de service ?",
+      answer: "Le code de fin de service est déclenché par l'Accompagnateur à la fin de la prestation. Vous le communiquez à l'Accompagnateur pour valider le paiement. Sans ce code, aucun fonds n'est versé. En cas de problème technique, l'option « Le promeneur n'a plus de batterie » permet de valider à distance."
     },
     {
-      question: "Pourquoi n'utilisez-vous pas le suivi GPS ?",
-      answer: "Nous privilégions la Preuve Visuelle (photo/vidéo) car elle est irréfutable et moins intrusive que le GPS, qui peut être imprécis. Voir votre animal heureux en image est la meilleure garantie d'un service bien réalisé."
+      question: "Les preuves visuelles sont-elles obligatoires ?",
+      answer: "Les preuves visuelles (photos/vidéos) sont fortement recommandées mais pas obligatoires pour le paiement. Elles permettent aux Accompagnateurs de bénéficier d'un meilleur classement (surclassement) dans les résultats de recherche. Le paiement est validé par le code de fin de service, indépendamment des preuves visuelles."
     },
     {
       question: "Puis-je annuler une réservation ?",
@@ -229,7 +229,7 @@ const Tarifs = () => {
 
         <div className="max-w-4xl mx-auto space-y-12">
           <SectionHeader
-            title="Le Système de Paiement Sécurisé DogWalking"
+            title="Le Paiement en Attente DogWalking"
             subtitle="Une sécurité financière totale pour le Propriétaire et une garantie de paiement pour l'Accompagnateur Certifié"
             icon={Lock}
             iconVariant="accent"
@@ -243,7 +243,7 @@ const Tarifs = () => {
             >
               <h3 className="text-2xl font-bold mb-4">Pourquoi le paiement en attente ?</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Le paiement en attente protège les deux parties. Le Propriétaire a l'assurance que son argent n'est libéré qu'une fois la mission terminée et validée par ses soins. L'Accompagnateur Certifié a la garantie que les fonds sont déjà réservés et disponibles dès la fin de son service.
+                Le paiement en attente protège les deux parties. Le Propriétaire a l'assurance que son argent n'est libéré qu'après communication du code de fin de service. L'Accompagnateur Certifié a la garantie que les fonds sont déjà réservés et disponibles.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center gap-2">
