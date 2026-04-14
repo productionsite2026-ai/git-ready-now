@@ -66,26 +66,14 @@ const ServicePromenade = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Options de promenade",
       "itemListElement": [
         {
           "@type": "Offer",
-          "name": "Promenade 30 minutes",
-          "price": "8",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Promenade 1 heure",
-          "price": "15",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Promenade 2 heures",
-          "price": "25",
+          "name": "Promenade de chien",
           "priceCurrency": "EUR"
         }
       ]
@@ -96,7 +84,7 @@ const ServicePromenade = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Promenade de Chien | Accompagnateurs Certifiés Vérifiés | DogWalking"
-        description="Service de promenade de chien par des professionnels vérifiés partout en France. Preuves photo obligatoires, protection incluse, paiement sécurisé. Réservez dès 8€."
+        description="Service de promenade de chien par des professionnels vérifiés partout en France. Preuves photo obligatoires, protection incluse, paiement sécurisé. Réservez en quelques clics."
         keywords="promenade chien, dog walking, promeneur canin, balade chien, sortie chien, promeneur professionnel, dog walker france"
         canonicalUrl="https://dogwalking.fr/services/promenade"
         structuredData={serviceJsonLd}
@@ -200,9 +188,9 @@ const ServicePromenade = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                     <Camera className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Preuves Photo Obligatoires</h3>
+                  <h3 className="text-xl font-bold mb-2">Preuves Photo Recommandées</h3>
                   <p className="text-muted-foreground">
-                    À chaque promenade, l'Accompagnateur envoie des photos et vidéos de votre chien via notre application sécurisée. 
+                    L'Accompagnateur peut envoyer des photos et vidéos de votre chien pour un meilleur classement. 
                     Vous suivez les aventures de votre compagnon en temps réel.
                   </p>
                 </CardContent>
@@ -215,7 +203,7 @@ const ServicePromenade = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">Paiement Sécurisé</h3>
                   <p className="text-muted-foreground">
-                    Votre paiement est bloqué jusqu'à réception des preuves photo. Sans validation, vous êtes automatiquement remboursé. 
+                    Votre paiement est bloqué en attente. Il n'est libéré qu'après communication du code de fin de service par le Propriétaire. 
                     Une sécurité unique sur le marché français.
                   </p>
                 </CardContent>
@@ -304,7 +292,7 @@ const ServicePromenade = () => {
                 <h3 className="text-xl font-bold mb-2">Recevez les Preuves</h3>
                 <p className="text-muted-foreground">
                   Le jour de la promenade, recevez des photos et vidéos de votre compagnon en balade. 
-                  Le paiement est libéré après communication du code unique par le Propriétaire.
+                  Le paiement est libéré après communication du code de fin de service par le Propriétaire.
                 </p>
               </div>
             </div>
@@ -318,64 +306,56 @@ const ServicePromenade = () => {
           </div>
         </section>
 
-        {/* Types de promenades */}
+        {/* Situations concrètes */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Des Promenades Adaptées à Chaque Chien
+                Dans Quelles Situations Faire Appel à un Accompagnateur ?
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Que votre chien soit un chiot énergique ou un senior tranquille, nous avons la promenade parfaite pour lui.
+                Chaque situation de vie mérite une réponse adaptée pour le bien-être de votre compagnon.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <div className="text-4xl mb-4">🐕</div>
-                  <h3 className="font-bold mb-2">Promenade Courte</h3>
-                  <p className="text-sm text-muted-foreground mb-2">30 minutes</p>
-                  <p className="text-2xl font-bold text-primary">dès 8€</p>
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Idéale pour les sorties rapides et les besoins quotidiens
+                  <div className="text-4xl mb-4">🏢</div>
+                  <h3 className="font-bold mb-2">Journées de bureau</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Votre chien attend seul toute la journée ? Un Accompagnateur vient le sortir et le stimuler pendant votre absence.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="text-center hover:shadow-lg transition-shadow border-primary">
                 <CardContent className="p-6">
-                  <Badge className="mb-2">Populaire</Badge>
-                  <div className="text-4xl mb-4">🐕‍🦺</div>
-                  <h3 className="font-bold mb-2">Promenade Standard</h3>
-                  <p className="text-sm text-muted-foreground mb-2">45 min - 1h</p>
-                  <p className="text-2xl font-bold text-primary">dès 12€</p>
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Le parfait équilibre entre exercice et exploration
+                  <Badge className="mb-2">Cas fréquent</Badge>
+                  <div className="text-4xl mb-4">🤕</div>
+                  <h3 className="font-bold mb-2">Blessure ou mobilité réduite</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Vous ne pouvez plus promener votre chien vous-même ? Nos Accompagnateurs prennent le relais sans interruption.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <div className="text-4xl mb-4">🏃</div>
-                  <h3 className="font-bold mb-2">Grande Balade</h3>
-                  <p className="text-sm text-muted-foreground mb-2">1h30 - 2h</p>
-                  <p className="text-2xl font-bold text-primary">dès 20€</p>
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Pour les chiens sportifs qui ont besoin de se dépenser
+                  <div className="text-4xl mb-4">👶</div>
+                  <h3 className="font-bold mb-2">Arrivée d'un bébé</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Les premiers mois sont intenses. Offrez à votre chien ses promenades quotidiennes sans culpabiliser.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <div className="text-4xl mb-4">🐾</div>
-                  <h3 className="font-bold mb-2">Promenade Groupe</h3>
-                  <p className="text-sm text-muted-foreground mb-2">1h en groupe</p>
-                  <p className="text-2xl font-bold text-primary">dès 10€</p>
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Socialisation avec 2-3 autres chiens compatibles
+                  <div className="text-4xl mb-4">🐶</div>
+                  <h3 className="font-bold mb-2">Chien hyperactif</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Votre chien déborde d'énergie ? Des promenades longues et stimulantes canalisent son excitation.
                   </p>
                 </CardContent>
               </Card>
