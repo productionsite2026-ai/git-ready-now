@@ -14,7 +14,7 @@ export const Footer = () => {
             </Link>
             <p className="text-white/70 text-sm mb-4">
               La plateforme de confiance n°1 en France pour les Propriétaires d'animaux et les Accompagnateurs Certifiés. 
-              Paiement par séquestre, preuves visuelles obligatoires.
+              Paiement sécurisé, preuves visuelles obligatoires.
             </p>
             <div className="flex gap-3">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">

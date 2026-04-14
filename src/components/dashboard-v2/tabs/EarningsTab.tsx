@@ -112,7 +112,7 @@ const EarningsTab = () => {
           <Lock className="w-4 h-4 text-primary" />
         </div>
         <div className="flex-1">
-          <p className="text-xs font-bold text-foreground">Système de Séquestre</p>
+          <p className="text-xs font-bold text-foreground">Système de Paiement Sécurisé</p>
           <p className="text-[10px] text-muted-foreground">Vos revenus sont garantis et libérés dès la saisie du code unique du client.</p>
         </div>
       </motion.div>

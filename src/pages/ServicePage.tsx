@@ -366,7 +366,7 @@ const ServicePage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
                 {[
                   { title: "Trouvez", desc: "Choisissez votre Accompagnateur Certifié", icon: Search },
-                  { title: "Réservez", desc: "Bloquez les fonds par séquestre", icon: CreditCard },
+                  { title: "Réservez", desc: "Bloquez les fonds sécurisé", icon: CreditCard },
                   { title: "Suivez", desc: "Recevez les preuves visuelles", icon: Camera },
                   { title: "Validez", desc: "Libérez le paiement par code unique", icon: CheckCircle2 }
                 ].map((step, i) => (

@@ -46,7 +46,7 @@ const NousSommesPresents = () => {
     },
     { 
       question: "Quels services proposez-vous ?", 
-      answer: "Accompagnement quotidien, garde à domicile, visite à domicile, et bien plus. Tous nos services sont sécurisés par un système de séquestre et une validation par code unique." 
+      answer: "Accompagnement quotidien, garde à domicile, visite à domicile, et bien plus. Tous nos services sont sécurisés par un système de paiement sécurisé et une validation par code unique." 
     },
     { 
       question: "Comment demander un service dans ma zone ?", 

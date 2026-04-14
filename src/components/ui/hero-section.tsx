@@ -107,7 +107,7 @@ export const HeroSection = () => {
             className="text-lg md:text-2xl mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto text-center"
           >
             Trouvez un Accompagnateur Certifié pour votre animal partout en France.<br />
-            Paiement par séquestre innovant et preuves visuelles obligatoires.<br />
+            Paiement sécurisé innovant et preuves visuelles obligatoires.<br />
             Votre sérénité est notre priorité absolue.
           </motion.p>
 
@@ -146,7 +146,7 @@ export const HeroSection = () => {
           <div className="mt-8 md:mt-12 grid grid-cols-2 md:flex md:justify-center items-center gap-4 md:gap-8 text-xs md:text-sm">
             {[
               { icon: Shield, text: "Vérification CNI", color: "text-primary" },
-              { icon: Lock, text: "Séquestre & Code Unique", color: "text-primary" },
+              { icon: Lock, text: "Paiement en Attente & Code Unique", color: "text-primary" },
               { icon: Camera, text: "Preuve Photo Obligatoire", color: "text-accent" },
               { icon: Star, text: "4.9/5 (Avis vérifiés)", color: "text-accent" },
             ].map((item, i) => (

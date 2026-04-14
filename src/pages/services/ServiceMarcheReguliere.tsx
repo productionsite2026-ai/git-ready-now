@@ -80,28 +80,12 @@ const ServiceMarcheReguliere = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Forfaits marche régulière",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Forfait 3 promenades/semaine",
-          "price": "30",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Forfait 5 promenades/semaine",
-          "price": "45",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Forfait quotidien",
-          "price": "55",
-          "priceCurrency": "EUR"
-        }
+        { "@type": "Offer", "name": "Marche régulière", "priceCurrency": "EUR" }
       ]
     }
   };
@@ -143,7 +127,7 @@ const ServiceMarcheReguliere = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Marche Régulière Chien | Accompagnateur Certifié Attitré & Routine | DogWalking"
-        description="Marche régulière avec le même promeneur vérifié. Routine stable, bénéfices comportementaux, lien de confiance. Forfaits avantageux dès 30€/semaine."
+        description="Marche régulière avec le même promeneur vérifié. Routine stable, bénéfices comportementaux, lien de confiance. Forfaits avantageux pour un engagement long terme."
         keywords="marche régulière chien, promenade quotidienne, promeneur attitré, routine chien, forfait promenade, dog walking régulier"
         canonicalUrl="https://dogwalking.fr/services/marche-reguliere"
         structuredData={serviceJsonLd}
@@ -507,10 +491,10 @@ const ServiceMarcheReguliere = () => {
               className="text-center mb-12"
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Nos Forfaits Marche Régulière
+                Choisissez Votre Rythme de Promenade
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Des tarifs avantageux pour un engagement sur le long terme
+                Un programme adapté au mode de vie de votre chien
               </p>
             </motion.div>
 
@@ -520,8 +504,7 @@ const ServiceMarcheReguliere = () => {
                   <div className="text-4xl mb-4">🚶</div>
                   <h3 className="font-bold text-xl mb-2">Essentiel</h3>
                   <p className="text-sm text-muted-foreground mb-2">3 promenades/semaine</p>
-                  <p className="text-3xl font-bold text-primary mb-2">dès 30€</p>
-                  <p className="text-xs text-muted-foreground mb-4">soit 10€/promenade</p>
+                  <p className="text-xs text-muted-foreground mb-4">Tarif avantageux</p>
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -548,8 +531,7 @@ const ServiceMarcheReguliere = () => {
                   <div className="text-4xl mb-4">🏃</div>
                   <h3 className="font-bold text-xl mb-2">Confort</h3>
                   <p className="text-sm text-muted-foreground mb-2">5 promenades/semaine</p>
-                  <p className="text-3xl font-bold text-primary mb-2">dès 45€</p>
-                  <p className="text-xs text-muted-foreground mb-4">soit 9€/promenade</p>
+                  <p className="text-xs text-muted-foreground mb-4">Meilleur rapport qualité/prix</p>
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -576,8 +558,7 @@ const ServiceMarcheReguliere = () => {
                   <div className="text-4xl mb-4">🌟</div>
                   <h3 className="font-bold text-xl mb-2">Quotidien</h3>
                   <p className="text-sm text-muted-foreground mb-2">7 promenades/semaine</p>
-                  <p className="text-3xl font-bold text-primary mb-2">dès 55€</p>
-                  <p className="text-xs text-muted-foreground mb-4">soit 7,85€/promenade</p>
+                  <p className="text-xs text-muted-foreground mb-4">Couverture quotidienne</p>
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -629,10 +610,10 @@ const ServiceMarcheReguliere = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Pourquoi Faire Confiance a DogWalking pour ce Service ?
+                Un Engagement de Qualité sur la Durée
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nos garanties de confiance et de securite sont sans equivalent en France.
+                Des garanties solides pour votre programme de marche régulière.
               </p>
             </div>
             <TrustBadges />

@@ -35,15 +35,15 @@ export const WhySection = () => {
     },
     {
       icon: Lock,
-      title: "Séquestre",
-      description: "Vos fonds sont sécurisés par séquestre et bloqués jusqu'à la fin de la mission. Zéro risque financier.",
+      title: "Paiement en Attente",
+      description: "Vos fonds sont bloqués jusqu'à la communication du code de fin de service. Zéro risque financier.",
       gradient: "from-primary to-primary/70",
       bgGradient: "from-primary/10 to-primary/5"
     },
     {
       icon: Camera,
-      title: "Preuve Visuelle",
-      description: "Photos et vidéos obligatoires au départ et à l'arrivée de chaque mission. Transparence totale garantie.",
+      title: "Preuves Visuelles",
+      description: "Les Accompagnateurs envoyant photos/vidéos bénéficient d'un meilleur positionnement. Transparence récompensée.",
       gradient: "from-accent to-primary",
       bgGradient: "from-accent/10 to-primary/10"
     },

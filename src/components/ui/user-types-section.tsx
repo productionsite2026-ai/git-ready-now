@@ -14,7 +14,7 @@ export const UserTypesSection = () => {
   const ownerBenefits = [
     { text: "Accompagnateurs Certifiés", icon: Shield },
     { text: "Preuves visuelles obligatoires", icon: Camera },
-    { text: "Paiement par séquestre", icon: CreditCard },
+    { text: "Paiement sécurisé", icon: CreditCard },
     { text: "Avis certifiés et badges de qualité", icon: Star },
     { text: "Support réactif 7j/7", icon: Users }
   ];
@@ -94,7 +94,7 @@ export const UserTypesSection = () => {
 
               <CardContent className="p-4 md:p-5 flex flex-col flex-1">
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
-                  Confiez vos animaux à des professionnels vérifiés. Notre processus de sélection rigoureux garantit que seuls les meilleurs Accompagnateurs rejoignent notre réseau. Payez en toute sécurité par séquestre. 
+                  Confiez vos animaux à des professionnels vérifiés. Notre processus de sélection rigoureux garantit que seuls les meilleurs Accompagnateurs rejoignent notre réseau. Payez en toute sécurité sécurisé. 
                 </p>
 
                 <ul className="space-y-2 mb-5">

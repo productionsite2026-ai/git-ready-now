@@ -20,24 +20,24 @@ export const HowItWorksSection = () => {
       number: "2",
       icon: Calendar,
       title: "Réservez",
-      description: "Déposez une annonce spécifique ou choisissez le service, la date et l’heure. Votre paiement est sécurisé par séquestre et bloqué jusqu’à votre validation lors du retour de votre animal.",
+      description: "Déposez une annonce spécifique ou choisissez le service, la date et l’heure. Votre paiement est sécurisé et bloqué jusqu’à votre validation lors du retour de votre animal.",
       highlight: "Paiement bloqué",
       image: bookingReservation
     },
     {
       number: "3",
       icon: Camera,
-      title: "Recevez les preuves",
-      description: "L'Accompagnateur Certifié vous envoie obligatoirement des preuves visuelles (photo/vidéo) pendant la mission. Transparence totale garantie.",
-      highlight: "Preuves obligatoires",
+      title: "Suivez la mission",
+      description: "L'Accompagnateur envoie des preuves visuelles (photo/vidéo) pour un meilleur positionnement. Il déclenche le code de fin de service une fois la prestation terminée.",
+      highlight: "Transparence valorisée",
       image: promeneurPhotoPreuve
     },
     {
       number: "4",
       icon: ThumbsUp,
-      title: "Validez & Libérez",
-      description: "Le paiement est débloqué lorsque vous communiquez le code unique à l'Accompagnateur Certifié après service, au retour de votre animal. Laissez un avis certifié pour aider la communauté.",
-      highlight: "Satisfaction garantie",
+      title: "Validez le paiement",
+      description: "Communiquez le code de fin de service à l'Accompagnateur pour libérer le paiement. Option « Le promeneur n'a plus de batterie » disponible pour valider à distance.",
+      highlight: "Vous gardez le contrôle",
       image: paiementValideApp
     }
   ];

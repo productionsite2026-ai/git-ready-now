@@ -64,22 +64,12 @@ const ServiceVisite = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Options de visite",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Visite 30 minutes",
-          "price": "8",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Visite sanitaire 45 min",
-          "price": "16",
-          "priceCurrency": "EUR"
-        }
+        { "@type": "Offer", "name": "Visite à domicile", "priceCurrency": "EUR" }
       ]
     }
   };
@@ -88,7 +78,7 @@ const ServiceVisite = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Visite à Domicile Chien | Accompagnateurs Vérifiés | DogWalking"
-        description="Faites nourrir et câliner votre chien chez vous par un Accompagnateur vérifié. Visite à domicile, soins quotidiens, preuves photo. Service dès 8€ la visite."
+        description="Faites nourrir et câliner votre chien chez vous par un Accompagnateur vérifié. Visite à domicile, soins quotidiens, preuves photo. Réservez en quelques clics."
         keywords="visite domicile chien, garde multi-animaux maison, nourriture chien, soins animal domicile, cat sitting, visite chat, garde animaux maison"
         canonicalUrl="https://dogwalking.fr/services/visite"
         structuredData={serviceJsonLd}
@@ -260,7 +250,7 @@ const ServiceVisite = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Nos Formules de Visite à Domicile
+                Deux Niveaux de Service pour Votre Animal
               </h2>
             </div>
 
@@ -268,8 +258,7 @@ const ServiceVisite = () => {
               <Card className="border-2 hover:border-primary/50 transition-all hover:shadow-lg">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold mb-2">Visite Standard</h3>
-                  <p className="text-4xl font-bold text-primary mb-2">dès 8€</p>
-                  <p className="text-muted-foreground mb-6">30 minutes</p>
+                  <p className="text-muted-foreground mb-6">30 minutes de présence</p>
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-5 w-5 text-primary" />
@@ -302,8 +291,7 @@ const ServiceVisite = () => {
                 <Badge className="absolute -top-3 left-1/2 -translate-x-1/2">Complet</Badge>
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold mb-2">Visite Sanitaire</h3>
-                  <p className="text-4xl font-bold text-primary mb-2">dès 16€</p>
-                  <p className="text-muted-foreground mb-6">45 minutes</p>
+                  <p className="text-muted-foreground mb-6">45 minutes de soins complets</p>
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-5 w-5 text-primary" />
@@ -486,10 +474,10 @@ const ServiceVisite = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Pourquoi Faire Confiance a DogWalking pour ce Service ?
+                Fiabilité et Confiance pour Chaque Visite
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nos garanties de confiance et de securite sont sans equivalent en France.
+                Un cadre sécurisé pour les visites à votre domicile.
               </p>
             </div>
             <TrustBadges />

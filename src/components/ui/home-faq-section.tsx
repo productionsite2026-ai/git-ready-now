@@ -5,7 +5,7 @@ import { HelpCircle } from "lucide-react";
 const homeFAQs = [
   {
     question: "Comment fonctionne DogWalking pour trouver un Accompagnateur ?",
-    answer: "Consultez les Profils, Avis et Tarifs des Accompagnateurs Certifiés disponibles près de chez vous. Le paiement est sécurisé par séquestre et bloqué jusqu’à la fin de la prestation, après validation via un code unique. Choisissez ensuite le type de service (Promenade, Garde, Visite, ...), entrez votre adresse et sélectionnez un ou plusieurs Accompagnateurs : votre demande est envoyée et reste en attente de leur confirmation. Vous pouvez également déposer une annonce libre en définissant votre budget et vos conditions ; vous recevrez plusieurs propositions de prestataires et pourrez choisir le profil le plus adapté."
+    answer: "Consultez les Profils, Avis et Tarifs des Accompagnateurs Certifiés disponibles près de chez vous. Le paiement est sécurisé et bloqué jusqu’à la fin de la prestation, après validation via un code unique. Choisissez ensuite le type de service (Promenade, Garde, Visite, ...), entrez votre adresse et sélectionnez un ou plusieurs Accompagnateurs : votre demande est envoyée et reste en attente de leur confirmation. Vous pouvez également déposer une annonce libre en définissant votre budget et vos conditions ; vous recevrez plusieurs propositions de prestataires et pourrez choisir le profil le plus adapté."
   },
   {
     question: "Les Accompagnateurs sont-ils vraiment vérifiés ?",
@@ -13,7 +13,7 @@ const homeFAQs = [
   },
   {
     question: "Que se passe-t-il si je ne suis pas satisfait de la prestation ?",
-    answer: "Grâce à notre système de paiement sécurisé par séquestre, votre argent reste bloqué jusqu’à validation de la prestation. Seul le Propriétaire détient un code unique, qu’il communique à l’Accompagnateur à la fin du service pour débloquer le paiement. Si l'Accompagnateur n’envoie pas de preuve visuelle (photo/vidéo) et un commentaire, ou si la prestation ne correspond pas à vos attentes, vous pouvez contester. Notre équipe support intervient sous 48h en cas de litige pour assurer une médiation équitable."
+    answer: "Grâce à notre système de paiement sécurisé en attente, votre argent reste bloqué jusqu’à validation de la prestation. Seul le Propriétaire détient un code unique, qu’il communique à l’Accompagnateur à la fin du service pour débloquer le paiement. Si l'Accompagnateur n’envoie pas de preuve visuelle (photo/vidéo) et un commentaire, ou si la prestation ne correspond pas à vos attentes, vous pouvez contester. Notre équipe support intervient sous 48h en cas de litige pour assurer une médiation équitable."
   },
   {
     question: "Quels types de services propose DogWalking ?",

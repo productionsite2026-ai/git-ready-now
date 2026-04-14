@@ -113,7 +113,7 @@ export const ServicesSection = () => {
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Nos Services d'Accompagnement pour vos animaux</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Promenade, Garde, Hébergement, Accompagnement Vétérinaire : trouvez le service adapté avec preuves visuelles obligatoires et paiement sécurisé par séquestre.
+            Promenade, Garde, Hébergement, Accompagnement Vétérinaire : trouvez le service adapté avec preuves visuelles obligatoires et paiement sécurisé en attente.
           </p>
         </div>
 
@@ -206,7 +206,7 @@ export const ServicesSection = () => {
           <div className="inline-flex items-center gap-3 bg-card rounded-2xl px-6 py-4 shadow-soft border border-border mb-8">
             <Shield className="h-6 w-6 text-primary" />
             <span className="text-sm md:text-base">
-              <strong>Garantie DogWalking :</strong> Preuves visuelles obligatoires + Paiement sécurisé par séquestre
+              <strong>Garantie DogWalking :</strong> Preuves visuelles obligatoires + Paiement sécurisé
             </span>
           </div>
           <div>

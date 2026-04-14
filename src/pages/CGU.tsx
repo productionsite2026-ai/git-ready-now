@@ -54,7 +54,7 @@ const CGU = () => {
             </p>
             <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-2">
               <li>La recherche et consultation de profils d'Accompagnateurs Certifiés</li>
-              <li>La réservation et paiement de Prestations par système de séquestre</li>
+              <li>La réservation et paiement de Prestations par système de paiement sécurisé</li>
               <li>La communication sécurisée entre Propriétaires et Accompagnateurs Certifiés</li>
               <li>Le suivi des Prestations avec preuves visuelles obligatoires</li>
               <li>La libération du paiement par code unique communiqué par le Propriétaire</li>
@@ -110,12 +110,12 @@ const CGU = () => {
             <h2 className="text-2xl font-semibold mb-4">Article 5 - Tarifs et Paiement</h2>
             <h3 className="text-xl font-medium mb-2">5.1 Tarification</h3>
             <p className="text-muted-foreground">
-              Les tarifs sont librement fixés par les Accompagnateurs Certifiés ("À partir de..."). DogWalking perçoit une commission de 15% sur le montant total de la Prestation pour assurer le fonctionnement du service, du séquestre et du support.
+              Les tarifs sont librement fixés par les Accompagnateurs Certifiés ("À partir de..."). DogWalking perçoit une commission de 15% sur le montant total de la Prestation pour assurer le fonctionnement du service, du paiement en attente et du support.
             </p>
             
-            <h3 className="text-xl font-medium mb-2 mt-4">5.2 Système de Séquestre et Code Unique</h3>
+            <h3 className="text-xl font-medium mb-2 mt-4">5.2 Système de Paiement Sécurisé et Code Unique</h3>
             <p className="text-muted-foreground">
-              Le paiement est sécurisé par séquestre lors de la réservation. Les fonds ne sont débloqués à l'Accompagnateur Certifié 
+              Le paiement est sécurisé lors de la réservation. Les fonds ne sont débloqués à l'Accompagnateur Certifié 
               qu'une fois que le Propriétaire a communiqué son code unique de validation à la fin de la mission.
             </p>
             
@@ -153,7 +153,7 @@ const CGU = () => {
             <p className="text-muted-foreground">
               DogWalking met en place un système de médiation et de protection pour les Prestations réalisées 
               via la Plateforme. En cas de litige, nos équipes interviennent pour analyser les preuves visuelles 
-              fournies et arbitrer le déblocage des fonds sous séquestre.
+              fournies et arbitrer le déblocage des fonds sous paiement en attente.
             </p>
           </section>
 

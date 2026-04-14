@@ -257,7 +257,7 @@ const ProfileTab = ({ role }: { role: "owner" | "walker" }) => {
                     </div>
                     <input type="range" min={10} max={50} step={1} value={hourlyRate} onChange={e => setHourlyRate(Number(e.target.value))}
                       className="w-full accent-primary" />
-                    <p className="text-[9px] text-muted-foreground">Commission DogWalking : 15% (Paiement par séquestre inclus)</p>
+                    <p className="text-[9px] text-muted-foreground">Commission DogWalking : 15% (Paiement sécurisé inclus)</p>
                   </div>
                   <div className="space-y-2">
                     <div className="flex justify-between text-[10px] font-bold">

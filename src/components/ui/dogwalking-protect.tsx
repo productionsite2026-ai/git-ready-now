@@ -16,15 +16,15 @@ export const DogWalkingProtect = () => {
     },
     {
       icon: Lock,
-      title: "Paiement par Séquestre",
-      description: "Votre paiement reste bloqué tant que vous n'avez pas communiqué votre code unique. Zéro risque.",
+      title: "Paiement en Attente",
+      description: "Votre paiement est bloqué jusqu'à ce que vous communiquiez le code de fin de service à l'Accompagnateur. Zéro risque.",
       stat: "Sécurisé"
     },
     {
       icon: Camera,
-      title: "Preuves Obligatoires",
-      description: "Photo ou vidéo avec message personnalisé pendant chaque mission. Transparence totale garantie.",
-      stat: "Chaque mission"
+      title: "Preuves Visuelles Recommandées",
+      description: "Les Accompagnateurs qui envoient photos/vidéos bénéficient d'un meilleur classement. Transparence valorisée.",
+      stat: "Surclassement"
     },
     {
       icon: Award,
@@ -48,7 +48,7 @@ export const DogWalkingProtect = () => {
             <Shield className="h-4 w-4" />
             <span className="text-sm font-medium">Sécurité Maximale</span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">DogWalking Protect (Séquestre)™</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">DogWalking Protect™</h2>
           <p className="text-base md:text-lg opacity-90 max-w-2xl mx-auto">
             Notre garantie exclusive pour votre tranquillité d'esprit et la sécurité de votre animal
           </p>

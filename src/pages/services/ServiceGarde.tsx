@@ -64,28 +64,12 @@ const ServiceGarde = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Options de garde",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Garderie de jour",
-          "price": "10",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Hébergement nuit",
-          "price": "10",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Garde à domicile nuit",
-          "price": "12",
-          "priceCurrency": "EUR"
-        }
+        { "@type": "Offer", "name": "Garde de chien", "priceCurrency": "EUR" }
       ]
     }
   };
@@ -94,7 +78,7 @@ const ServiceGarde = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Garde de Chien | Accompagnateurs Vérifiés | Hébergement & Domicile | DogWalking"
-        description="Faites garder votre chien par des Accompagnateurs vérifiés. Garde à domicile ou hébergement chez le gardien. Preuves photo quotidiennes, protection incluse. Dès 10€/nuit."
+        description="Faites garder votre chien par des Accompagnateurs vérifiés. Garde à domicile ou hébergement chez le gardien. Preuves photo quotidiennes, protection incluse. Réservez en quelques clics."
         keywords="garde chien, garde multi-animaux, hébergement chien, pension chien, garde à domicile, gardien chien, pension canine france"
         canonicalUrl="https://dogwalking.fr/services/garde"
         structuredData={serviceJsonLd}
@@ -171,10 +155,10 @@ const ServiceGarde = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Nos Options de Garde pour Votre Chien
+                Les Formules de Garde Adaptées à Votre Situation
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Choisissez la formule qui correspond le mieux aux besoins de votre compagnon et à votre budget.
+                Choisissez la formule qui correspond le mieux aux besoins de votre compagnon.
               </p>
             </div>
 
@@ -185,8 +169,7 @@ const ServiceGarde = () => {
                     <Sun className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Garderie de Jour</h3>
-                  <p className="text-3xl font-bold text-primary mb-2">dès 10€</p>
-                  <p className="text-sm text-muted-foreground mb-4">par journée</p>
+                  <p className="text-sm text-muted-foreground mb-4">Journée complète</p>
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -218,8 +201,7 @@ const ServiceGarde = () => {
                     <Moon className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Hébergement Nuit</h3>
-                  <p className="text-3xl font-bold text-primary mb-2">dès 10€</p>
-                  <p className="text-sm text-muted-foreground mb-4">par nuit</p>
+                  <p className="text-sm text-muted-foreground mb-4">Nuit complète</p>
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -250,8 +232,7 @@ const ServiceGarde = () => {
                     <Home className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Garde à Domicile</h3>
-                  <p className="text-3xl font-bold text-primary mb-2">dès 12€</p>
-                  <p className="text-sm text-muted-foreground mb-4">par nuit</p>
+                  <p className="text-sm text-muted-foreground mb-4">Garde à votre domicile</p>
                   <ul className="text-sm text-left space-y-2 mb-6">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
@@ -459,10 +440,10 @@ const ServiceGarde = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Pourquoi Faire Confiance a DogWalking pour ce Service ?
+                La Sécurité au Cœur de Chaque Garde
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nos garanties de confiance et de securite sont sans equivalent en France.
+                Des mesures de protection concrètes pour la garde de votre animal.
               </p>
             </div>
             <TrustBadges />

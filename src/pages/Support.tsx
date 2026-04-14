@@ -32,7 +32,7 @@ const faqCategories = {
     title: "Propriétaires",
     icon: Dog,
     faqs: [
-      { question: "Comment fonctionne DogWalking pour mon animal ?", answer: "Recherchez un Accompagnateur Certifié près de chez vous. Échangez via messages pré-enregistrés, puis réservez en bloquant les fonds sur la plateforme (Séquestre). Une fois les fonds sécurisés, vous accédez au chat libre pour organiser la mission. Le paiement n'est libéré qu'à la fin, lorsque vous communiquez votre code unique à l'Accompagnateur Certifié." },
+      { question: "Comment fonctionne DogWalking pour mon animal ?", answer: "Recherchez un Accompagnateur Certifié près de chez vous. Échangez via messages pré-enregistrés, puis réservez en bloquant les fonds sur la plateforme (Paiement en Attente). Une fois les fonds sécurisés, vous accédez au chat libre pour organiser la mission. Le paiement n'est libéré qu'à la fin, lorsque vous communiquez votre code unique à l'Accompagnateur Certifié." },
       { question: "Comment sont sélectionnés les Accompagnateurs ?", answer: "Seuls 35% des candidats sont acceptés. Nous vérifions manuellement leur pièce d'identité (CNI), leurs formations et leur expérience. Chaque Accompagnateur Certifié doit signer un accord de principe aux règles strictes de DogWalking." },
       { question: "Qu'est-ce que le système de Preuve Visuelle ?", answer: "Contrairement au GPS intrusif, DogWalking impose une preuve visuelle. L'Accompagnateur Certifié doit vous envoyer une photo ou vidéo dès qu'il récupère votre animal, puis une autre à la fin de la mission. C'est la garantie réelle du service effectué." },
       { question: "Puis-je annuler une réservation ?", answer: "Oui, l'annulation est possible et gratuite jusqu'à 3 heures avant le début de la prestation. Passé ce délai, des conditions spécifiques s'appliquent." },
@@ -53,7 +53,7 @@ const faqCategories = {
     title: "Paiement & Sécurité",
     icon: CreditCard,
     faqs: [
-      { question: "Qu'est-ce que le paiement par séquestre ?", answer: "C'est un système 'zéro risque'. Lors de la réservation, le montant est prélevé et bloqué par DogWalking. Il n'est jamais versé directement à l'Accompagnateur Certifié avant la réalisation complète du service et votre validation par code unique." },
+      { question: "Qu'est-ce que le paiement sécurisé ?", answer: "C'est un système 'zéro risque'. Lors de la réservation, le montant est prélevé et bloqué par DogWalking. Il n'est jamais versé directement à l'Accompagnateur Certifié avant la réalisation complète du service et votre validation par code unique." },
       { question: "Y a-t-il des frais de plateforme ?", answer: "DogWalking prélève une commission de 15% pour assurer la gestion, la sécurité et la protection de chaque mission. Cette commission est incluse dans le prix total payé lors du blocage des fonds." },
       { question: "Que se passe-t-il si l'Accompagnateur Certifié ne vient pas ?", answer: "Si les preuves visuelles obligatoires ne sont pas envoyées ou si le code unique n'est pas utilisé, le paiement reste bloqué. Le Propriétaire est alors remboursé sur son dashboard." },
     ],
@@ -117,13 +117,13 @@ const Support = () => {
   const stats = [
     { value: "35%", label: "Taux d'acceptation", icon: Shield },
     { value: "100%", label: "Prestations documentées", icon: Camera },
-    { value: "0 Risque", label: "Paiement par Séquestre", icon: Lock },
+    { value: "0 Risque", label: "Paiement Sécurisé", icon: Lock },
     { value: "7j/7", label: "Support Client", icon: MessageSquare },
   ];
 
   const values = [
     { icon: Shield, title: "Confiance Vérifiée", description: "Vérification manuelle de la CNI, de l'expérience de chaque candidat." },
-    { icon: Lock, title: "Sécurité Financière", description: "Système de séquestre innovant avec code unique de déblocage détenu par le Propriétaire." },
+    { icon: Lock, title: "Sécurité Financière", description: "Système de paiement en attente innovant avec code unique de déblocage détenu par le Propriétaire." },
     { icon: Camera, title: "Preuve Visuelle", description: "Photos et vidéos obligatoires à la prise en charge et à la fin de chaque mission réalisée." },
     { icon: Heart, title: "Bien-être Animal", description: "Une approche centrée sur le respect de l'animal, documentée en temps réel pour votre sérénité." },
   ];
@@ -132,7 +132,7 @@ const Support = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Centre d'Aide & FAQ | Support DogWalking"
-        description="Trouvez des réponses à toutes vos questions sur DogWalking : fonctionnement, sécurité, paiement par séquestre, inscription Accompagnateur. Contactez notre équipe."
+        description="Trouvez des réponses à toutes vos questions sur DogWalking : fonctionnement, sécurité, paiement sécurisé, inscription Accompagnateur. Contactez notre équipe."
         canonical="https://dogwalking.fr/support"
       />
       <Header />
@@ -192,7 +192,7 @@ const Support = () => {
                       DogWalking est né d'un constat simple : confier son animal à un inconnu est une source de stress. Nous avons créé la plateforme n°1 en France qui place la <strong>sécurité</strong> et la <strong>preuve de service</strong> au cœur de chaque échange.
                     </p>
                     <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                      Grâce à notre processus de sélection manuel (35% d'acceptation) et notre système de séquestre innovant, nous offrons aux Propriétaires une sérénité totale et aux Accompagnateurs Certifiés un cadre professionnel valorisant.
+                      Grâce à notre processus de sélection manuel (35% d'acceptation) et notre système de paiement sécurisé innovant, nous offrons aux Propriétaires une sérénité totale et aux Accompagnateurs Certifiés un cadre professionnel valorisant.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                       {stats.map((stat, i) => (

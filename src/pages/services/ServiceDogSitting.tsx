@@ -80,28 +80,12 @@ const ServiceDogSitting = () => {
       "@type": "Country",
       "name": "France"
     },
+    
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Options de garde à domicile",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Dog sitting demi-journée",
-          "price": "25",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Dog sitting journée complète",
-          "price": "40",
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Dog sitting avec nuit",
-          "price": "55",
-          "priceCurrency": "EUR"
-        }
+        { "@type": "Offer", "name": "Garde à domicile", "priceCurrency": "EUR" }
       ]
     }
   };
@@ -609,10 +593,10 @@ const ServiceDogSitting = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Pourquoi Faire Confiance a DogWalking pour ce Service ?
+                Confiance et Transparence pour Chaque Garde à Domicile
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nos garanties de confiance et de securite sont sans equivalent en France.
+                Un niveau d'exigence élevé pour la garde de votre compagnon.
               </p>
             </div>
             <TrustBadges />
