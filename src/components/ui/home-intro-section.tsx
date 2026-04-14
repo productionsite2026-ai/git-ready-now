@@ -36,7 +36,7 @@ export const HomeIntroSection = () => {
     },
     {
       icon: Lock,
-      title: "Paiement Sécurisé",
+      title: "Paiement en Attente",
       description: "Le paiement est sécurisé et bloqué sécurisé jusqu’à votre validation à la fin du service. Le Propriétaire transmet son code unique pour libérer les fonds.",
       highlight: "Innovation unique en France",
       image: validationPayment,
@@ -44,9 +44,9 @@ export const HomeIntroSection = () => {
     },
     {
       icon: Camera,
-      title: "Preuves Visuelles Obligatoires",
-      description: "À chaque mission, nos Accompagnateurs envoient des photos et vidéos de votre animal via notre plateforme. Suivez les aventures de votre compagnon en temps réel.",
-      highlight: "Transparence totale",
+      title: "Preuves Visuelles Recommandées",
+      description: "Les Accompagnateurs qui envoient photos et vidéos pendant la mission bénéficient d'un meilleur classement. La transparence est récompensée.",
+      highlight: "Surclassement garanti",
       image: photoProof,
       color: "from-primary/15 to-accent/15"
     },
