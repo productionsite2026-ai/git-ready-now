@@ -504,10 +504,10 @@ const ServicePetSitting = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Pourquoi Faire Confiance a DogWalking pour ce Service ?
+                Des Garanties Solides pour Tous Vos Animaux
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nos garanties de confiance et de securite sont sans equivalent en France.
+                Un accompagnement sécurisé quel que soit le type d'animal.
               </p>
             </div>
             <TrustBadges />

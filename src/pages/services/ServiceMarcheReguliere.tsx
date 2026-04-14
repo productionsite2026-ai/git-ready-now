@@ -610,10 +610,10 @@ const ServiceMarcheReguliere = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Pourquoi Faire Confiance a DogWalking pour ce Service ?
+                Un Engagement de Qualité sur la Durée
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nos garanties de confiance et de securite sont sans equivalent en France.
+                Des garanties solides pour votre programme de marche régulière.
               </p>
             </div>
             <TrustBadges />
